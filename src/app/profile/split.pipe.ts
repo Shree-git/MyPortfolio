@@ -10,7 +10,7 @@ export class SplitPipe implements PipeTransform {
       if(!value) {
         return;
       }
-      return value.split(" .");
+      return value.split("\n");
     }
   
 

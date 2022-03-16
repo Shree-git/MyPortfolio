@@ -20,7 +20,7 @@ export class ProfileService {
       livedemo: "https://choicesnew-a0046.web.app/",
       githurl: "https://github.com/mehulk05/MyShop",
       mediumlink: "",
-      imgUrl: "assets/images/z1.png",
+      imgUrl: "assets/images/cs13.png",
       tech: "Ionic, Node, Angular, Firebase",
     },
 
@@ -35,7 +35,7 @@ export class ProfileService {
       githurl: "https://github.com/Shree-git/covid-detection-team08/",
       mediumlink:
         "https://devpost.com/software/covid-hero-covid-detection-team-8/",
-      imgUrl: "assets/images/z26.png",
+      imgUrl: "assets/images/ch11.png",
       tech: "Ionic, Node, Angular, Firebase, R, Python, Google Maps API",
     },
 
@@ -48,17 +48,23 @@ export class ProfileService {
       githurl: "https://github.com/Shree-git/COMPS-Chat-Engine",
       mediumlink:
         "",
-      imgUrl: "assets/images/z27.png",
+      imgUrl: "assets/images/cm.png",
       tech: "Angular, Node, Firebase",
     },
   ];
-  about2 = `Software Developer with 2.5+ years of experience .
-  Worked with Software Development Life Cycle(SDLC) and  agile methodologies .
-  Expertise in Angular 2+ All versions, React, Javascript,  Node JS and UI with Responsive Designs .
-  Have good understanding of Python, Jquery, Bootstrap, MongoDB, Firebase, and MYSQL`;
+  about2 = `My skillsets are listed below:
+  - Languages: Python, Java, C, C++ C#, Javascript, Ruby, Golang/Go
+  - Artificial Intelligence: Machine Learning, Deep Learning, Fuzzy Logic, Genetic Algorithms, Computer Vision, Quantum Computing, High-Performance Computing
+  - Game Development: Unity Game Engine, 2D and 3D games, Unreal Engine
+  - Full Stack Development: Angular, Ionic/Angular, React, React Native, Vue, Ruby on Rails, Django, Flask, HTML, CSS, PHP, jQuery, Bootstrap
+  - Databases: MySQL, MongoDB, Neo4j, Oracle PL/SQL, Google Cloud Platform/Firebase, AWS
+  - Networking: MPLS, BGP, TCP/IP
+  - Mobile Apps: Android Studio, XCode
+  - Graphic Design: Adobe Photoshop, Adobe Illustrator, UI/UX
+  - Music Production: FL Studio, Ableton Live`;
 
   about =
-    "Lover of innovation and everything related to generate new knowledge.Face problems with a smile and solve them as soon as possible. Very calculated about the time I spend and work I do.";
+    "I'm a senior (graduating May 2022) Computer Science and Mathematics Major with a Business Administration Minor at Valparaiso University. I am looking for full-time/internship roles as a software engineer/developer, full-stack engineer, AI engineer, or game developer.";
   resumeurl =
     "https://drive.google.com/file/d/1h2WcqicqCEQcu2ZtG8HRQtimjRLcU0N_/view?usp=sharing";
 
@@ -140,7 +146,7 @@ Completed my Secondary school with 84%.`,
       timeline: "June 2021 - Aug 2021",
       role: "Software Engineering Intern",
       work: `Used React and Ruby on Rails to maintain a full-stack application which helped over 30 customers make their hiring process efficient and find hidden gems within a pool of applicants.
-      Assisted in the process of increasing the company’s annual ARR by 116% and 3x its revenue`,
+      Assisted in the process of increasing the company’s annual ARR by 116% and 3x its revenue.`,
     },
     {
       id: 4,
@@ -168,7 +174,7 @@ Completed my Secondary school with 84%.`,
       location: "Valparaiso, IN",
       timeline: "Aug 2020 - Present",
       role: "Teaching Assistant (TA)",
-      work: `Assist the professor with the course and hold office hours to work one-on-one with students`,
+      work: `Assist the professor with the course and hold office hours to work one-on-one with students.`,
     },
 
     {
@@ -177,7 +183,54 @@ Completed my Secondary school with 84%.`,
       location: "Valparaiso, IN",
       timeline: "Aug 2019 - Present",
       role: "Front Desk Attendant",
-      work: `Coordinate tour guides and the prospective families for the campus tour and provide customer support`,
+      work: `Coordinate tour guides and the prospective families for the campus tour and provide customer support.`,
+    },
+  ];
+
+  leadershipData: any = [
+    {
+      id: 1,
+      organization: "Valparaiso International Students Association",
+      location: "Valparaiso, IN",
+      timeline: "July 2020 - May 2021",
+      role: "President",
+      work: `Oversaw all executive members and organized events such as World Banquet and Cultural Nights among others.
+      Represented international students and promoted diversity/inclusion in the university.`,
+    },
+    {
+      id: 2,
+      organization: "Association of Computing Machinery (ACM)",
+      location: "Valparaiso, IN",
+      timeline: "Aug 2020 - Dec 2021",
+      role: "Vice President",
+      work: `Coordinated events such as Hackathons, coding interview preps, among others.
+      Brought in speakers to talk about Computer Science and its applications in the world.`,
+    },
+    {
+      id: 3,
+      organization: "TEDx",
+      location: "Valparaiso, IN",
+      timeline: "Jan 2020",
+      role: "Speaker",
+      work: `Gave a TEDx talk titled: Ten Days of Finding Myself.
+      Link: <a href="shorturl.at/nxzLW">Youtube</a>`,
+    },
+    {
+      id: 4,
+      organization: "Valparaiso University",
+      location: "Valparaiso, IN",
+      timeline: "Aug 2020 - May 2021",
+      role: "At-Large Senator",
+      work: `Advocated for the students and wrote legislations to help the whole at-large student body on campus.
+      Served in the Administration Committee overseeing the approval of new student organizations.`,
+    },
+    {
+      id: 5,
+      organization: "Nepal Cube Association",
+      location: "Kathmandu, Nepal",
+      timeline: "Jan 2016 - July 2018",
+      role: "Co-Founder",
+      work: `Co-started the Nepal Cube Association with 5 people and established cubing as a sport in Nepal.`,
     },
   ];
   // contactus(data: any): Observable<any> {
@@ -198,8 +251,12 @@ Completed my Secondary school with 84%.`,
     return this.educationData;
   }
 
-  exprience(): Observable<any> {
+  experience(): Observable<any> {
     // return this.http.get(this.baseUrl + 'exprience');
     return this.exprienceData;
+  }
+
+  leadershipExp(): Observable<any>{
+    return this.leadershipData;
   }
 }
