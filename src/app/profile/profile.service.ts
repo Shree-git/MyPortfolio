@@ -19,7 +19,7 @@ export class ProfileService {
       desc: `A cross-platform app for iOS, Android, Desktop and Web which help patients recover from drug and alcohol addiction.`,
       livedemo: "https://choicesnew-a0046.web.app/",
       githurl: "https://github.com/mehulk05/MyShop",
-      mediumlink: "",
+      blogLink: "",
       imgUrl: "assets/images/cs13.png",
       tech: "Ionic, Node, Angular, Firebase",
     },
@@ -33,7 +33,7 @@ export class ProfileService {
       they are`,
       livedemo: "https://covid-detection-37cda.web.app/",
       githurl: "https://github.com/Shree-git/covid-detection-team08/",
-      mediumlink:
+      blogLink:
         "https://devpost.com/software/covid-hero-covid-detection-team-8/",
       imgUrl: "assets/images/ch11.png",
       tech: "Ionic, Node, Angular, Firebase, R, Python, Google Maps API",
@@ -42,14 +42,105 @@ export class ProfileService {
     {
       id: 3,
       title: "COMPS",
-      subtitle: "",
+      subtitle: "Chat Engine",
       desc: `A web-chat application which online teaching and learning easier for students, professors, and TAs`,
       livedemo: "https://comps-ea6c1.web.app/login-chat",
       githurl: "https://github.com/Shree-git/COMPS-Chat-Engine",
-      mediumlink:
+      blogLink:
         "",
       imgUrl: "assets/images/cm.png",
-      tech: "Angular, Node, Firebase",
+      tech: "Angular, Typescript, Node, Firebase",
+    },
+
+    {
+      id: 4,
+      title: "Paint Replica",
+      subtitle: "",
+      desc: `Utilized JavaFX library to develop under an aggressive schedule using UML and agile software development methods`,
+      livedemo: "",
+      githurl: "https://github.com/Shree-git/paint",
+      blogLink:
+        "",
+      imgUrl: "assets/images/paint2.png",
+      tech: "Java, JavaFX",
+    },
+
+    {
+      id: 5,
+      title: "Chess 3D",
+      subtitle: "Mobile Game",
+      desc: ``,
+      livedemo: "https://drive.google.com/file/d/1ithRuxG-fqOlu2QxeOglITQnxJkOPYe_/view?usp=sharing",
+      githurl: "https://github.com/Shree-git/Chess-3D/",
+      blogLink:
+        "",
+      imgUrl: "assets/images/chess.jpeg",
+      tech: "C#, Unity Game Engine, Blender",
+    },
+
+    {
+      id: 6,
+      title: "Match 3",
+      subtitle: "Game",
+      desc: ``,
+      livedemo: "",
+      githurl: "https://github.com/Shree-git/Match-3-Game",
+      blogLink:
+        "",
+      imgUrl: "assets/images/match2.png",
+      tech: "C#, Unity Game Engine, Adobe Photoshop, Adobe Illustrator",
+    },
+
+    {
+      id: 7,
+      title: "Tic-Tac-Toe",
+      subtitle: "Mobile Game",
+      desc: ``,
+      livedemo: "https://drive.google.com/file/d/11FndRv0QpWqHB0qlA8GTvxiC4I9Yi1Tt/view?usp=sharing",
+      githurl: "https://github.com/Shree-git/tic-tac-toe",
+      blogLink:
+        "https://shree56.itch.io/shrees-tic-tac-toe",
+      imgUrl: "assets/images/ttt2.jpeg",
+      tech: "C#, Unity Game Engine",
+    },
+
+    {
+      id: 8,
+      title: "Time Jump",
+      subtitle: "Game",
+      desc: ``,
+      livedemo: "https://shree56.itch.io/time-jump",
+      githurl: "https://github.com/Shree-git/GamesPlusJam",
+      blogLink:
+        "",
+      imgUrl: "assets/images/tj.png",
+      tech: "C#, Unity Game Engine, Adobe Photoshop, FL Studio",
+    },
+
+    {
+      id: 9,
+      title: "Spooky Torch",
+      subtitle: "Game",
+      desc: ``,
+      livedemo: "https://shree56.itch.io/spooky-torch",
+      githurl: "",
+      blogLink:
+        "",
+      imgUrl: "assets/images/spt3.png",
+      tech: "C#, Unity Game Engine, Adobe Photoshop, FL Studio",
+    },
+
+    {
+      id: 10,
+      title: "Love or Math",
+      subtitle: "Game",
+      desc: ``,
+      livedemo: "https://shree56.itch.io/love-or-math",
+      githurl: "",
+      blogLink:
+        "",
+      imgUrl: "assets/images/lom1.png",
+      tech: "C#, Unity Game Engine, Adobe Photoshop, FL Studio",
     },
   ];
   about2 = `My skillsets are listed below:
@@ -233,6 +324,29 @@ Completed my Secondary school with 84%.`,
       work: `Co-started the Nepal Cube Association with 5 people and established cubing as a sport in Nepal.`,
     },
   ];
+
+  honorsData: any = [
+    {
+      id: 1,
+      name: 'Kermit H. Carlson Memorial Award',
+      date: '2021',
+    },
+    {
+      id: 2,
+      name: 'Dr. Hugh McGuigan Award',
+      date: '2021',
+    },
+    {
+      id: 3,
+      name: 'Valparaiso University Presidential Scholarship',
+      date: '2019 - Present',
+    },
+    {
+      id: 4,
+      name: 'Dean’s List',
+      date: '2019, 2020, 2021',
+    },
+  ];
   // contactus(data: any): Observable<any> {
   //   return this.http.post(this.baseUrl + 'contact', data);
   // }
@@ -258,5 +372,9 @@ Completed my Secondary school with 84%.`,
 
   leadershipExp(): Observable<any>{
     return this.leadershipData;
+  }
+
+  getHonors(): Observable<any>{
+    return this.honorsData;
   }
 }

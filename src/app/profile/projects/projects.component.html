@@ -31,19 +31,24 @@
                 </h5>
                 <div class="d-flex flexrow justify-content-around">
                   <a
+                    *ngIf="project.livedemo"
                     href="{{ project.livedemo }}"
                     class="btn btn-primary stretched-link"
+                    target="_blank"
                     >Live Demo</a
                   >
                   <a
+                    *ngIf="project.githurl"
                     href="{{ project.githurl }}"
                     class="btn btn-primary stretched-link"
+                    target="_blank"
                     >Github</a
                   >
                   <a
-                    *ngIf="project.mediumlink"
-                    href="{{ project.githurl }}"
+                    *ngIf="project.blogLink"
+                    href="{{ project.blogLink }}"
                     class="btn btn-primary stretched-link"
+                    target="_blank"
                     >Blog</a
                   >
                 </div>

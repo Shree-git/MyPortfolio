@@ -16,6 +16,7 @@ import { ProjectsComponent } from './projects/projects.component';
 import { NgxPaginationModule } from 'ngx-pagination';
 import { SplitPipe } from './split.pipe';
 import { LeadershipComponent } from './leadership/leadership.component';
+import { HonorsComponent } from './honors/honors.component';
 
 @NgModule({
   imports: [
@@ -37,7 +38,8 @@ import { LeadershipComponent } from './leadership/leadership.component';
     ContactComponent,
     ProjectsComponent,
     SplitPipe,
-    LeadershipComponent
+    LeadershipComponent,
+    HonorsComponent
   ],
  
 })

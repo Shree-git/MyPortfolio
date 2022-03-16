@@ -1,0 +1,41 @@
+
+<div class="section" id="honors">
+    <div class="container cc-education">
+      <div class="h4 text-center mb-4 title">Honors and Awards</div>
+      <div class="card">
+        <div class="row">
+          <div
+            class="col-md-3 bg-primary"
+            data-aos="fade-right"
+            data-aos-offset="50"
+            data-aos-duration="500"
+            *ngFor="let honor of honorsData"
+          >
+            <div class="card-body cc-education-header">
+              <p>{{ honor.date }}</p>
+              <div class="h5">{{ honor.name }}</div>
+            </div>
+          </div>
+          
+          <!-- <div
+            class="col-md-9"
+            data-aos="fade-left"
+            data-aos-offset="50"
+            data-aos-duration="500"
+          > -->
+            <!-- <div class="card-body">
+              <div class="h5">
+                Bachelor of Science in <b>Computer Science</b> and <b>Mathematics</b>
+              </div>
+              <h4 class="category">Valparaiso University, IN</h4>
+              <ul>
+                <li>Minor: Business Administration</li>
+                <li>GPA: 3.9</li>
+              </ul>
+            </div> -->
+          <!-- </div> -->
+        </div>
+      </div>
+    </div>
+  </div>
+  
