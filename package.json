@@ -4,12 +4,11 @@
   "scripts": {
     "ng": "ng",
     "start" : "node server.js",
-    "build": "ng build -c",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
     "dev:ssr": "ng run personal-portfoli-angular:serve-ssr",
-    "heroku-postbuild": "ng build — prod",
+    "heroku-postbuild": "ng build --prod",
     "serve:ssr": "node dist/personal-portfoli-angular/server/main.js",
     "build:ssr": "ng build --prod && ng run personal-portfoli-angular:server:production",
     "prerender": "ng run personal-portfoli-angular:prerender"
