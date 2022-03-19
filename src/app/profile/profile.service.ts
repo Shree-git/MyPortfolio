@@ -43,13 +43,26 @@ export class ProfileService {
       id: 3,
       title: "COMPS",
       subtitle: "Chat Engine",
-      desc: `A web-chat application which online teaching and learning easier for students, professors, and TAs`,
+      desc: `A web-chat application which makes online teaching and learning easier for students, professors, and TAs`,
       livedemo: "https://comps-ea6c1.web.app/login-chat",
       githurl: "https://github.com/Shree-git/COMPS-Chat-Engine",
       blogLink:
         "",
       imgUrl: "assets/images/cm.png",
       tech: "Angular, Typescript, Node, Firebase",
+    },
+
+    {
+      id: 11,
+      title: "AI Traveling Salesman",
+      subtitle: "",
+      desc: `A program which uses genetic algorithm to figure out the optimal solution to the Traveling Salesman Problem.`,
+      livedemo: "",
+      githurl: "https://github.com/Shree-git/AI-Traveling-Salesman",
+      blogLink:
+        "",
+      imgUrl: "assets/images/tsp2.png",
+      tech: "Python3, Tkinter",
     },
 
     {
@@ -83,12 +96,25 @@ export class ProfileService {
       title: "Match 3",
       subtitle: "Game",
       desc: ``,
-      livedemo: "",
+      livedemo: "https://shree56.itch.io/match-3",
       githurl: "https://github.com/Shree-git/Match-3-Game",
       blogLink:
         "",
       imgUrl: "assets/images/match2.png",
       tech: "C#, Unity Game Engine, Adobe Photoshop, Adobe Illustrator",
+    },
+
+    {
+      id: 13,
+      title: "Automatic Number Plate Recognition",
+      subtitle: "Image Processing AI",
+      desc: `A Matlab program which detects the number plate of UK vehicles and extracts it`,
+      livedemo: "",
+      githurl: "https://github.com/Shree-git/Automatic-Number-Plate-Recognition",
+      blogLink:
+        "",
+      imgUrl: "assets/images/q6.png",
+      tech: "Matlab",
     },
 
     {
@@ -141,6 +167,33 @@ export class ProfileService {
         "",
       imgUrl: "assets/images/lom1.png",
       tech: "C#, Unity Game Engine, Adobe Photoshop, FL Studio",
+    },
+
+    {
+      id: 12,
+      title: "AI Konane",
+      subtitle: "Game",
+      desc: `A two-player strategy board game integrated with AI built with minimax with alpha-beta cutoffs and 
+      a scoring function.`,
+      livedemo: "",
+      githurl: "https://github.com/Shree-git/AI-Konane-Game",
+      blogLink:
+        "",
+      imgUrl: "assets/images/konane.png",
+      tech: "Python3",
+    },
+
+    {
+      id: 14,
+      title: "Space Shooter",
+      subtitle: "Multiplayer Game",
+      desc: ``,
+      livedemo: "",
+      githurl: "https://github.com/Shree-git/Space-Shooter-Multiplayer",
+      blogLink:
+        "",
+      imgUrl: "assets/images/space.png",
+      tech: "C#, Unity Game Engine",
     },
   ];
   about2 = `My skillsets are listed below:
@@ -304,7 +357,7 @@ Completed my Secondary school with 84%.`,
       timeline: "Jan 2020",
       role: "Speaker",
       work: `Gave a TEDx talk titled: Ten Days of Finding Myself.
-      Link: <a href="shorturl.at/nxzLW">Youtube</a>`,
+      Link: shorturl.at/nxzLW`,
     },
     {
       id: 4,
