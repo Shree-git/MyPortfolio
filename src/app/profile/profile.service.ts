@@ -212,41 +212,234 @@ export class ProfileService {
   resumeurl =
     "https://drive.google.com/file/d/1h2WcqicqCEQcu2ZtG8HRQtimjRLcU0N_/view?usp=sharing";
 
+  // skillsData: any = [
+  //   {
+  //     id: "6",
+  //     skill: "PYTHON, JAVA, C#, Ruby",
+  //     progress: "80%",
+  //   },
+  //   {
+  //     id: "1",
+  //     skill: "ANGULAR",
+  //     progress: "85%",
+  //   },
+  //   {
+  //     id: "2",
+  //     skill: "NODE JS, JAVASCRIPT",
+  //     progress: "80%",
+  //   },
+  //   {
+  //     id: "3",
+  //     skill: "Ruby on Rails",
+  //     progress: "80%",
+  //   },
+  //   {
+  //     id: "4",
+  //     skill: "SQL, MYSQL, MONOGODB, FIREBASE",
+  //     progress: "75%",
+  //   },
+  //   {
+  //     id: "5",
+  //     skill: "REACT",
+  //     progress: "75%",
+  //   },
+  //   {
+  //     id: "7",
+  //     skill: "AI, Machine Learning, Deep Learning, Neural Networks",
+  //     progress: "65%",
+  //   },
+  // ];
+
   skillsData: any = [
     {
-      id: "6",
-      skill: "PYTHON, JAVA, C#, Ruby",
-      progress: "80%",
-    },
-    {
       id: "1",
-      skill: "ANGULAR",
-      progress: "85%",
+      title: "LANGUAGES",
+      skills: [{
+        name: "PYTHON",
+        progress: "85%",
+      },
+      {
+        name: "JAVA",
+        progress: "80%",
+      },
+      {
+        name: "C#",
+        progress: "80%",
+      },
+      {
+        name: "Javascript",
+        progress: "85%",
+      },
+      {
+        name: "Ruby",
+        progress: "80%",
+      },
+      {
+        name: "C++",
+        progress: "65%",
+      },
+      {
+        name: "Go",
+        progress: "60%",
+      },
+      {
+        name: "C",
+        progress: "65%",
+      }]
     },
     {
       id: "2",
-      skill: "NODE JS, JAVASCRIPT",
-      progress: "80%",
+      title: "AI",
+      skills: [{
+        name: "Deep Learning",
+        progress: "80%",
+      },
+      {
+        name: "Expert Systems",
+        progress: "70%",
+      },
+      {
+        name: "Computer Vision",
+        progress: "65%",
+      },
+      {
+        name: "Genetic Algorithms",
+        progress: "75%",
+      },
+      {
+        name: "Neural Networks",
+        progress: "80%",
+      },
+      {
+        name: "Fuzzy Logic",
+        progress: "80%",
+      },
+      ]
     },
     {
       id: "3",
-      skill: "Ruby on Rails",
-      progress: "80%",
+      title: "WEB DEV",
+      skills: [{
+        name: "Angular",
+        progress: "90%",
+      },
+      {
+        name: "React",
+        progress: "75%",
+      },
+      {
+        name: "HTML",
+        progress: "90%",
+      },
+      {
+        name: "CSS",
+        progress: "85%",
+      },
+      {
+        name: "Ruby on Rails",
+        progress: "75%",
+      },
+      {
+        name: "PHP",
+        progress: "60%",
+      },
+      {
+        name: "Django",
+        progress: "55%",
+      },
+      {
+        name: "Vue",
+        progress: "45%",
+      },
+      {
+        name: "UI/UX DESIGN",
+        progress: "75%",
+      },
+      ]
     },
     {
       id: "4",
-      skill: "SQL, MYSQL, MONOGODB, FIREBASE",
-      progress: "75%",
+      title: "DATABASES",
+      skills: [{
+        name: "MYSQL",
+        progress: "80%",
+      },
+      {
+        name: "POSTGRESQL",
+        progress: "80%",
+      },
+      {
+        name: "MONGODB",
+        progress: "60%",
+      },
+      {
+        name: "FIREBASE",
+        progress: "80%",
+      },
+      {
+        name: "AWS",
+        progress: "50%",
+      },
+      {
+        name: "NEO4J",
+        progress: "45%",
+      },
+      ]
     },
     {
       id: "5",
-      skill: "REACT",
-      progress: "75%",
+      title: "GAME DEV",
+      skills: [{
+        name: "UNITY ENGINE",
+        progress: "90%",
+      },
+      {
+        name: "UNREAL ENGINE",
+        progress: "50%",
+      },
+      {
+        name: "GODOT",
+        progress: "50%",
+      },
+      ]
     },
     {
-      id: "7",
-      skill: "AI, Machine Learning, Deep Learning, Neural Networks",
-      progress: "65%",
+      id: "6",
+      title: "MISC",
+      skills: [
+        {
+          name: "LEADERSHIP",
+          progress: "85%",
+        },
+        {
+          name: "COLLABORATION",
+          progress: "80%",
+        },
+        {
+          name: "COMMUNICATION",
+          progress: "85%",
+        },
+        {
+          name: "ADOBE PHOTOSHOP",
+          progress: "80%",
+        },
+        {
+          name: "ADOBE ILLUSTRATOR",
+          progress: "60%",
+        },
+        {
+          name: "ANDROID STUDIO",
+          progress: "60%",
+        },
+        {
+          name: "PROJECT MANAGEMENT",
+          progress: "70%",
+        },
+        {
+          name: "QUANTUM COMPUTING",
+          progress: "60%",
+        },
+      ]
     },
   ];
 
