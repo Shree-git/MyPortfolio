@@ -195,6 +195,32 @@ export class ProfileService {
       imgUrl: "assets/images/space.png",
       tech: "C#, Unity Game Engine",
     },
+
+    {
+      id: 15,
+      title: "Audio Player",
+      subtitle: "",
+      desc: ``,
+      livedemo: "",
+      githurl: "https://github.com/Shree-git/Audio-Player",
+      blogLink:
+        "",
+      imgUrl: "assets/images/ap.png",
+      tech: "Angular, Auth0",
+    },
+
+    {
+      id: 16,
+      title: "Social Media App",
+      subtitle: "",
+      desc: ``,
+      livedemo: "",
+      githurl: "https://github.com/Shree-git/social-media-app",
+      blogLink:
+        "",
+      imgUrl: "assets/images/sm.jpeg",
+      tech: "Ruby, Ruby on Rails, Express, Node",
+    },
   ];
   about2 = `My skillsets are listed below:
   - Languages: Python, Java, C, C++ C#, Javascript, Ruby, Golang/Go
