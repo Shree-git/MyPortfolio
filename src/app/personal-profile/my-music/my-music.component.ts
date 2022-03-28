@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { PersonalProfileService } from '../personal-profile.service';
 
 @Component({
   selector: 'app-my-music',
@@ -6,10 +7,18 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./my-music.component.scss']
 })
 export class MyMusicComponent implements OnInit {
+  myMusic;
 
-  constructor() { }
+  constructor(private personalProfileService: PersonalProfileService) {
+
+    this.myMusic = [
+      "3RBKIjVDVFf9JP1q02p5rw",
+      "1N6J9XX95mcCktZ75rsbk4",
+    ]
+   }
 
   ngOnInit(): void {
+    
   }
 
 }

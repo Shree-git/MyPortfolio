@@ -25,4 +25,13 @@ export class PersonalProfileService {
       { responseType: 'text' }
     )
   }
+
+  getMyMusic(){
+    return myMusic;
+  }
 }
+
+const myMusic = [
+  "https://open.spotify.com/embed/track/3RBKIjVDVFf9JP1q02p5rw?utm_source=generator",
+  "https://open.spotify.com/embed/track/1N6J9XX95mcCktZ75rsbk4?utm_source=generator",
+]

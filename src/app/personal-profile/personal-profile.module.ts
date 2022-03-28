@@ -10,6 +10,9 @@ import { FooterComponent } from './footer/footer.component';
 import { IntroComponent } from './intro/intro.component';
 import { MoviesComponent } from './movies/movies.component';
 import { MyMusicComponent } from './my-music/my-music.component';
+import { CubingComponent } from './cubing/cubing.component';
+import { LearningComponent } from './learning/learning.component';
+import { PhotosComponent } from './photos/photos.component';
 
 
 @NgModule({
@@ -27,6 +30,9 @@ import { MyMusicComponent } from './my-music/my-music.component';
     FooterComponent,
     SplitPipe,
     MyMusicComponent,
+    CubingComponent,
+    LearningComponent,
+    PhotosComponent,
   ],
  
 })
