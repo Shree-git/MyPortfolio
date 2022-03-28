@@ -9,6 +9,7 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { IntroComponent } from './intro/intro.component';
 import { MoviesComponent } from './movies/movies.component';
+import { MyMusicComponent } from './my-music/my-music.component';
 
 
 @NgModule({
@@ -25,6 +26,7 @@ import { MoviesComponent } from './movies/movies.component';
     MoviesComponent,
     FooterComponent,
     SplitPipe,
+    MyMusicComponent,
   ],
  
 })
