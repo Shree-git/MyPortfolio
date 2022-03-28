@@ -7,6 +7,8 @@ import { NgxPaginationModule } from 'ngx-pagination';
 import { SplitPipe } from './split.pipe';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
+import { IntroComponent } from './intro/intro.component';
+import { MoviesComponent } from './movies/movies.component';
 
 
 @NgModule({
@@ -18,7 +20,9 @@ import { FooterComponent } from './footer/footer.component';
   declarations: [
     PersonalProfileComponent,
     HeaderComponent,
+    IntroComponent,
     BooksComponent,
+    MoviesComponent,
     FooterComponent,
     SplitPipe,
   ],

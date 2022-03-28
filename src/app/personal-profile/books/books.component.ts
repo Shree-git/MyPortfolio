@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { json } from 'express';
 import { PersonalProfileService } from '../personal-profile.service';
 
 @Component({
@@ -9,7 +8,6 @@ import { PersonalProfileService } from '../personal-profile.service';
 })
 export class BooksComponent implements OnInit {
   books: any = [];
-  jsonBooks: [];
 
   constructor(private personalProfileService:PersonalProfileService) { }
   
