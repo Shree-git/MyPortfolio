@@ -17,12 +17,14 @@ import { NgxPaginationModule } from 'ngx-pagination';
 import { SplitPipe } from './split.pipe';
 import { LeadershipComponent } from './leadership/leadership.component';
 import { HonorsComponent } from './honors/honors.component';
+import { RouterModule } from '@angular/router';
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
-    NgxPaginationModule
+    NgxPaginationModule,
+    RouterModule
   ],
   declarations: [
     ProfileComponent,

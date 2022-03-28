@@ -13,13 +13,15 @@ import { MyMusicComponent } from './my-music/my-music.component';
 import { CubingComponent } from './cubing/cubing.component';
 import { LearningComponent } from './learning/learning.component';
 import { PhotosComponent } from './photos/photos.component';
+import { RouterModule } from '@angular/router';
 
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
-    NgxPaginationModule
+    NgxPaginationModule,
+    RouterModule
   ],
   declarations: [
     PersonalProfileComponent,
