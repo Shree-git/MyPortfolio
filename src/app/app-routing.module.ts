@@ -5,7 +5,6 @@ import { ProfileComponent } from './profile/profile.component';
 
 
 const routes: Routes = [
-  { path: "", redirectTo: "/professional", pathMatch: "full" },
   {
     path: "professional",
     component: ProfileComponent,
@@ -14,10 +13,14 @@ const routes: Routes = [
     path: "personal",
     component: PersonalProfileComponent,
   },
+  { path: "", redirectTo: "/professional", pathMatch: "full" },
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
+  imports: [RouterModule.forRoot(routes, {
+      initialNavigation: "enabledBlocking",
+    }
+    )],
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
