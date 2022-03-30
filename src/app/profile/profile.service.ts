@@ -18,7 +18,7 @@ export class ProfileService {
       subtitle: "An app to challenge addiction",
       desc: `A cross-platform app for iOS, Android, Desktop and Web which help patients recover from drug and alcohol addiction.`,
       livedemo: "https://choicesnew-a0046.web.app/",
-      githurl: "https://github.com/mehulk05/MyShop",
+      githurl: "https://github.com/Shree-git/newChoices",
       blogLink: "",
       imgUrl: "assets/images/cs13.png",
       tech: "Ionic, Node, Angular, Firebase",
