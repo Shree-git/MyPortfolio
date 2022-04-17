@@ -1,0 +1,35 @@
+<div class="section" id="books">
+  <div class="container cc-education">
+    <div class="h4 text-center mb-4 title">Books</div>
+    <div class="colorlib-narrow-content">
+      <div class="row">
+        <div class="col-md-6" *ngFor="let book of books">
+          <div class="timeline-centered">
+            <article
+              
+              class="timeline-entry animate-box"
+              data-animate-effect="fadeInLeft"
+            >
+              <div class="timeline-entry-inner">
+                <div class="timeline-icon color-2">
+                  <i class="icon-pen2"></i>
+                </div>
+
+                <div class="timeline-label">
+                  <h2>{{ book.name }} ({{ book.year }})</h2>
+                  <h2>
+                    <span>Author: {{ book.author }}</span>
+                    <span>Date Read: {{ book.date_read }}</span>
+                  </h2>
+                  <h4 style="padding-left: 1em;">
+                    My Rating: <b>{{ book.rating }}</b>
+                  </h4>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

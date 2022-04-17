@@ -18,7 +18,7 @@ export class ProfileService {
       subtitle: "An app to challenge addiction",
       desc: `A cross-platform app for iOS, Android, Desktop and Web which help patients recover from drug and alcohol addiction.`,
       livedemo: "https://choicesnew-a0046.web.app/",
-      githurl: "https://github.com/mehulk05/MyShop",
+      githurl: "https://github.com/Shree-git/newChoices",
       blogLink: "",
       imgUrl: "assets/images/cs13.png",
       tech: "Ionic, Node, Angular, Firebase",
@@ -43,13 +43,26 @@ export class ProfileService {
       id: 3,
       title: "COMPS",
       subtitle: "Chat Engine",
-      desc: `A web-chat application which online teaching and learning easier for students, professors, and TAs`,
+      desc: `A web-chat application which makes online teaching and learning easier for students, professors, and TAs`,
       livedemo: "https://comps-ea6c1.web.app/login-chat",
       githurl: "https://github.com/Shree-git/COMPS-Chat-Engine",
       blogLink:
         "",
       imgUrl: "assets/images/cm.png",
       tech: "Angular, Typescript, Node, Firebase",
+    },
+
+    {
+      id: 11,
+      title: "AI Traveling Salesman",
+      subtitle: "",
+      desc: `A program which uses genetic algorithm to figure out the optimal solution to the Traveling Salesman Problem.`,
+      livedemo: "",
+      githurl: "https://github.com/Shree-git/AI-Traveling-Salesman",
+      blogLink:
+        "",
+      imgUrl: "assets/images/tsp2.png",
+      tech: "Python3, Tkinter",
     },
 
     {
@@ -83,12 +96,25 @@ export class ProfileService {
       title: "Match 3",
       subtitle: "Game",
       desc: ``,
-      livedemo: "",
+      livedemo: "https://shree56.itch.io/match-3",
       githurl: "https://github.com/Shree-git/Match-3-Game",
       blogLink:
         "",
       imgUrl: "assets/images/match2.png",
       tech: "C#, Unity Game Engine, Adobe Photoshop, Adobe Illustrator",
+    },
+
+    {
+      id: 13,
+      title: "Automatic Number Plate Recognition",
+      subtitle: "Image Processing AI",
+      desc: `A Matlab program which detects the number plate of UK vehicles and extracts it`,
+      livedemo: "",
+      githurl: "https://github.com/Shree-git/Automatic-Number-Plate-Recognition",
+      blogLink:
+        "",
+      imgUrl: "assets/images/q6.png",
+      tech: "Matlab",
     },
 
     {
@@ -142,6 +168,59 @@ export class ProfileService {
       imgUrl: "assets/images/lom1.png",
       tech: "C#, Unity Game Engine, Adobe Photoshop, FL Studio",
     },
+
+    {
+      id: 12,
+      title: "AI Konane",
+      subtitle: "Game",
+      desc: `A two-player strategy board game integrated with AI built with minimax with alpha-beta cutoffs and 
+      a scoring function.`,
+      livedemo: "",
+      githurl: "https://github.com/Shree-git/AI-Konane-Game",
+      blogLink:
+        "",
+      imgUrl: "assets/images/konane.png",
+      tech: "Python3",
+    },
+
+    {
+      id: 14,
+      title: "Space Shooter",
+      subtitle: "Multiplayer Game",
+      desc: ``,
+      livedemo: "",
+      githurl: "https://github.com/Shree-git/Space-Shooter-Multiplayer",
+      blogLink:
+        "",
+      imgUrl: "assets/images/space.png",
+      tech: "C#, Unity Game Engine",
+    },
+
+    {
+      id: 15,
+      title: "Audio Player",
+      subtitle: "",
+      desc: ``,
+      livedemo: "",
+      githurl: "https://github.com/Shree-git/Audio-Player",
+      blogLink:
+        "",
+      imgUrl: "assets/images/ap.png",
+      tech: "Angular, Auth0",
+    },
+
+    {
+      id: 16,
+      title: "Social Media App",
+      subtitle: "",
+      desc: ``,
+      livedemo: "",
+      githurl: "https://github.com/Shree-git/social-media-app",
+      blogLink:
+        "",
+      imgUrl: "assets/images/sm.jpeg",
+      tech: "Ruby, Ruby on Rails, Express, Node",
+    },
   ];
   about2 = `My skillsets are listed below:
   - Languages: Python, Java, C, C++ C#, Javascript, Ruby, Golang/Go
@@ -159,41 +238,234 @@ export class ProfileService {
   resumeurl =
     "https://drive.google.com/file/d/1h2WcqicqCEQcu2ZtG8HRQtimjRLcU0N_/view?usp=sharing";
 
+  // skillsData: any = [
+  //   {
+  //     id: "6",
+  //     skill: "PYTHON, JAVA, C#, Ruby",
+  //     progress: "80%",
+  //   },
+  //   {
+  //     id: "1",
+  //     skill: "ANGULAR",
+  //     progress: "85%",
+  //   },
+  //   {
+  //     id: "2",
+  //     skill: "NODE JS, JAVASCRIPT",
+  //     progress: "80%",
+  //   },
+  //   {
+  //     id: "3",
+  //     skill: "Ruby on Rails",
+  //     progress: "80%",
+  //   },
+  //   {
+  //     id: "4",
+  //     skill: "SQL, MYSQL, MONOGODB, FIREBASE",
+  //     progress: "75%",
+  //   },
+  //   {
+  //     id: "5",
+  //     skill: "REACT",
+  //     progress: "75%",
+  //   },
+  //   {
+  //     id: "7",
+  //     skill: "AI, Machine Learning, Deep Learning, Neural Networks",
+  //     progress: "65%",
+  //   },
+  // ];
+
   skillsData: any = [
     {
-      id: "6",
-      skill: "PYTHON, JAVA, C#, Ruby",
-      progress: "80%",
-    },
-    {
       id: "1",
-      skill: "ANGULAR",
-      progress: "85%",
+      title: "LANGUAGES",
+      skills: [{
+        name: "PYTHON",
+        progress: "85%",
+      },
+      {
+        name: "JAVA",
+        progress: "80%",
+      },
+      {
+        name: "C#",
+        progress: "80%",
+      },
+      {
+        name: "Javascript",
+        progress: "85%",
+      },
+      {
+        name: "Ruby",
+        progress: "80%",
+      },
+      {
+        name: "C++",
+        progress: "65%",
+      },
+      {
+        name: "Go",
+        progress: "60%",
+      },
+      {
+        name: "C",
+        progress: "65%",
+      }]
     },
     {
       id: "2",
-      skill: "NODE JS, JAVASCRIPT",
-      progress: "80%",
+      title: "AI",
+      skills: [{
+        name: "Deep Learning",
+        progress: "80%",
+      },
+      {
+        name: "Expert Systems",
+        progress: "70%",
+      },
+      {
+        name: "Computer Vision",
+        progress: "65%",
+      },
+      {
+        name: "Genetic Algorithms",
+        progress: "75%",
+      },
+      {
+        name: "Neural Networks",
+        progress: "80%",
+      },
+      {
+        name: "Fuzzy Logic",
+        progress: "80%",
+      },
+      ]
     },
     {
       id: "3",
-      skill: "Ruby on Rails",
-      progress: "80%",
+      title: "WEB DEV",
+      skills: [{
+        name: "Angular",
+        progress: "90%",
+      },
+      {
+        name: "React",
+        progress: "75%",
+      },
+      {
+        name: "HTML",
+        progress: "90%",
+      },
+      {
+        name: "CSS",
+        progress: "85%",
+      },
+      {
+        name: "Ruby on Rails",
+        progress: "75%",
+      },
+      {
+        name: "PHP",
+        progress: "60%",
+      },
+      {
+        name: "Django",
+        progress: "55%",
+      },
+      {
+        name: "Vue",
+        progress: "45%",
+      },
+      {
+        name: "UI/UX DESIGN",
+        progress: "75%",
+      },
+      ]
     },
     {
       id: "4",
-      skill: "SQL, MYSQL, MONOGODB, FIREBASE",
-      progress: "75%",
+      title: "DATABASES",
+      skills: [{
+        name: "MYSQL",
+        progress: "80%",
+      },
+      {
+        name: "POSTGRESQL",
+        progress: "80%",
+      },
+      {
+        name: "MONGODB",
+        progress: "60%",
+      },
+      {
+        name: "FIREBASE",
+        progress: "80%",
+      },
+      {
+        name: "AWS",
+        progress: "50%",
+      },
+      {
+        name: "NEO4J",
+        progress: "45%",
+      },
+      ]
     },
     {
       id: "5",
-      skill: "REACT",
-      progress: "75%",
+      title: "GAME DEV",
+      skills: [{
+        name: "UNITY ENGINE",
+        progress: "90%",
+      },
+      {
+        name: "UNREAL ENGINE",
+        progress: "50%",
+      },
+      {
+        name: "GODOT",
+        progress: "50%",
+      },
+      ]
     },
     {
-      id: "7",
-      skill: "AI, Machine Learning, Deep Learning, Neural Networks",
-      progress: "65%",
+      id: "6",
+      title: "MISC",
+      skills: [
+        {
+          name: "LEADERSHIP",
+          progress: "85%",
+        },
+        {
+          name: "COLLABORATION",
+          progress: "80%",
+        },
+        {
+          name: "COMMUNICATION",
+          progress: "85%",
+        },
+        {
+          name: "ADOBE PHOTOSHOP",
+          progress: "80%",
+        },
+        {
+          name: "ADOBE ILLUSTRATOR",
+          progress: "60%",
+        },
+        {
+          name: "ANDROID STUDIO",
+          progress: "60%",
+        },
+        {
+          name: "PROJECT MANAGEMENT",
+          progress: "70%",
+        },
+        {
+          name: "QUANTUM COMPUTING",
+          progress: "60%",
+        },
+      ]
     },
   ];
 
@@ -304,7 +576,7 @@ Completed my Secondary school with 84%.`,
       timeline: "Jan 2020",
       role: "Speaker",
       work: `Gave a TEDx talk titled: Ten Days of Finding Myself.
-      Link: <a href="shorturl.at/nxzLW">Youtube</a>`,
+      Link: shorturl.at/nxzLW`,
     },
     {
       id: 4,
