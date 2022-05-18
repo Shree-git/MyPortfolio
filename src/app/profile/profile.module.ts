@@ -18,6 +18,7 @@ import { SplitPipe } from './split.pipe';
 import { LeadershipComponent } from './leadership/leadership.component';
 import { HonorsComponent } from './honors/honors.component';
 import { RouterModule } from '@angular/router';
+import { CoursesComponent } from './courses/courses.component';
 
 @NgModule({
   imports: [
@@ -41,7 +42,8 @@ import { RouterModule } from '@angular/router';
     ProjectsComponent,
     SplitPipe,
     LeadershipComponent,
-    HonorsComponent
+    HonorsComponent,
+    CoursesComponent
   ],
  
 })
