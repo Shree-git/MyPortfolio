@@ -527,8 +527,8 @@ Completed my Secondary school with 84%.`,
       location: "Valparaiso, IN",
       timeline: "Aug 2019 - Mar 2022",
       role: "Ambassador in Admissions",
-      work: `Give tour of the University to prospective students and families.
-      Phone prospective students and guide them through their college search process.`,
+      work: `Gave a tour of the University to prospective students and families.
+      Phoned prospective students and guided them through their college search process.`,
     },
 
     {
@@ -537,7 +537,7 @@ Completed my Secondary school with 84%.`,
       location: "Valparaiso, IN",
       timeline: "Aug 2020 - May 2022",
       role: "Teaching Assistant (TA)",
-      work: `Assist the professor with the course and hold office hours to work one-on-one with students.`,
+      work: `Assisted the professor with the course and held office hours to work one-on-one with students.`,
     },
 
     {
@@ -546,7 +546,7 @@ Completed my Secondary school with 84%.`,
       location: "Valparaiso, IN",
       timeline: "Aug 2019 - Mar 2022",
       role: "Front Desk Attendant",
-      work: `Coordinate tour guides and the prospective families for the campus tour and provide customer support.`,
+      work: `Coordinated tour guides and the prospective families for the campus tour and provided customer support.`,
     },
   ];
 
