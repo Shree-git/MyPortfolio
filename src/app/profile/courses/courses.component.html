@@ -1,1 +1,50 @@
-<p>courses works!</p>
+<div class="section" id="courses">
+  <div class="container cc-education">
+    <!-- <div class="h4 text-center mb-4 title">Courses</div> -->
+    <mat-accordion>
+      <mat-expansion-panel class="bg-secondary">
+        <mat-expansion-panel-header class="text-white">
+          <mat-panel-title
+            class="justify-content-center font-weight-bold"
+            style="font-size: 25px"
+          >
+            Courses
+          </mat-panel-title>
+        </mat-expansion-panel-header>
+        <mat-accordion class="example-headers-align" multi>
+            <mat-expansion-panel disabled>
+                <mat-expansion-panel-header>
+                  <mat-panel-title class="flex-fill">
+                    Course Name
+                  </mat-panel-title>
+                  <mat-panel-description class="flex-fill">
+                    <div style="margin-right: 30px;">Grade</div>
+
+                    <div># of Documents</div>
+                  </mat-panel-description>
+                </mat-expansion-panel-header>
+              </mat-expansion-panel>
+          <mat-expansion-panel *ngFor="let course of courses">
+            <mat-expansion-panel-header class="d-flex justify-content-between">
+              <mat-panel-title class="flex-fill">
+                {{ course.name }}
+              </mat-panel-title>
+              <mat-panel-description class="flex-fill">
+                <div *ngIf="course.grade" style="margin-left: 10px;">{{ course.grade }}</div>
+                <div *ngIf="!course.grade"> </div>
+              
+                {{ course.data.length }}
+              </mat-panel-description>
+            </mat-expansion-panel-header>
+            <!-- <div > -->
+                <ol>
+                    <li *ngFor="let data of course.data" id="{{data.id}}" style="margin-top: 10px"><a href="{{ data.url }}" target="_blank">{{ data.name }}</a></li>
+                </ol>
+              
+            <!-- </div> -->
+          </mat-expansion-panel>
+        </mat-accordion>
+      </mat-expansion-panel>
+    </mat-accordion>
+  </div>
+</div>

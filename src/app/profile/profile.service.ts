@@ -46,8 +46,7 @@ export class ProfileService {
       desc: `A web-chat application which makes online teaching and learning easier for students, professors, and TAs`,
       livedemo: "https://comps-ea6c1.web.app/login-chat",
       githurl: "https://github.com/Shree-git/COMPS-Chat-Engine",
-      blogLink:
-        "",
+      blogLink: "",
       imgUrl: "assets/images/cm.png",
       tech: "Angular, Typescript, Node, Firebase",
     },
@@ -59,8 +58,7 @@ export class ProfileService {
       desc: `A program which uses genetic algorithm to figure out the optimal solution to the Traveling Salesman Problem.`,
       livedemo: "",
       githurl: "https://github.com/Shree-git/AI-Traveling-Salesman",
-      blogLink:
-        "",
+      blogLink: "",
       imgUrl: "assets/images/tsp2.png",
       tech: "Python3, Tkinter",
     },
@@ -72,8 +70,7 @@ export class ProfileService {
       desc: `Utilized JavaFX library to develop under an aggressive schedule using UML and agile software development methods`,
       livedemo: "",
       githurl: "https://github.com/Shree-git/paint",
-      blogLink:
-        "",
+      blogLink: "",
       imgUrl: "assets/images/paint2.png",
       tech: "Java, JavaFX",
     },
@@ -83,10 +80,10 @@ export class ProfileService {
       title: "Chess 3D",
       subtitle: "Mobile Game",
       desc: ``,
-      livedemo: "https://drive.google.com/file/d/1ithRuxG-fqOlu2QxeOglITQnxJkOPYe_/view?usp=sharing",
+      livedemo:
+        "https://drive.google.com/file/d/1ithRuxG-fqOlu2QxeOglITQnxJkOPYe_/view?usp=sharing",
       githurl: "https://github.com/Shree-git/Chess-3D/",
-      blogLink:
-        "",
+      blogLink: "",
       imgUrl: "assets/images/chess.jpeg",
       tech: "C#, Unity Game Engine, Blender",
     },
@@ -98,8 +95,7 @@ export class ProfileService {
       desc: ``,
       livedemo: "https://shree56.itch.io/match-3",
       githurl: "https://github.com/Shree-git/Match-3-Game",
-      blogLink:
-        "",
+      blogLink: "",
       imgUrl: "assets/images/match2.png",
       tech: "C#, Unity Game Engine, Adobe Photoshop, Adobe Illustrator",
     },
@@ -110,9 +106,9 @@ export class ProfileService {
       subtitle: "Image Processing AI",
       desc: `A Matlab program which detects the number plate of UK vehicles and extracts it`,
       livedemo: "",
-      githurl: "https://github.com/Shree-git/Automatic-Number-Plate-Recognition",
-      blogLink:
-        "",
+      githurl:
+        "https://github.com/Shree-git/Automatic-Number-Plate-Recognition",
+      blogLink: "",
       imgUrl: "assets/images/q6.png",
       tech: "Matlab",
     },
@@ -122,10 +118,10 @@ export class ProfileService {
       title: "Tic-Tac-Toe",
       subtitle: "Mobile Game",
       desc: ``,
-      livedemo: "https://drive.google.com/file/d/11FndRv0QpWqHB0qlA8GTvxiC4I9Yi1Tt/view?usp=sharing",
+      livedemo:
+        "https://drive.google.com/file/d/11FndRv0QpWqHB0qlA8GTvxiC4I9Yi1Tt/view?usp=sharing",
       githurl: "https://github.com/Shree-git/tic-tac-toe",
-      blogLink:
-        "https://shree56.itch.io/shrees-tic-tac-toe",
+      blogLink: "https://shree56.itch.io/shrees-tic-tac-toe",
       imgUrl: "assets/images/ttt2.jpeg",
       tech: "C#, Unity Game Engine",
     },
@@ -137,8 +133,7 @@ export class ProfileService {
       desc: ``,
       livedemo: "https://shree56.itch.io/time-jump",
       githurl: "https://github.com/Shree-git/GamesPlusJam",
-      blogLink:
-        "",
+      blogLink: "",
       imgUrl: "assets/images/tj.png",
       tech: "C#, Unity Game Engine, Adobe Photoshop, FL Studio",
     },
@@ -150,8 +145,7 @@ export class ProfileService {
       desc: ``,
       livedemo: "https://shree56.itch.io/spooky-torch",
       githurl: "",
-      blogLink:
-        "",
+      blogLink: "",
       imgUrl: "assets/images/spt3.png",
       tech: "C#, Unity Game Engine, Adobe Photoshop, FL Studio",
     },
@@ -163,8 +157,7 @@ export class ProfileService {
       desc: ``,
       livedemo: "https://shree56.itch.io/love-or-math",
       githurl: "",
-      blogLink:
-        "",
+      blogLink: "",
       imgUrl: "assets/images/lom1.png",
       tech: "C#, Unity Game Engine, Adobe Photoshop, FL Studio",
     },
@@ -177,8 +170,7 @@ export class ProfileService {
       a scoring function.`,
       livedemo: "",
       githurl: "https://github.com/Shree-git/AI-Konane-Game",
-      blogLink:
-        "",
+      blogLink: "",
       imgUrl: "assets/images/konane.png",
       tech: "Python3",
     },
@@ -190,8 +182,7 @@ export class ProfileService {
       desc: ``,
       livedemo: "",
       githurl: "https://github.com/Shree-git/Space-Shooter-Multiplayer",
-      blogLink:
-        "",
+      blogLink: "",
       imgUrl: "assets/images/space.png",
       tech: "C#, Unity Game Engine",
     },
@@ -203,8 +194,7 @@ export class ProfileService {
       desc: ``,
       livedemo: "",
       githurl: "https://github.com/Shree-git/Audio-Player",
-      blogLink:
-        "",
+      blogLink: "",
       imgUrl: "assets/images/ap.png",
       tech: "Angular, Auth0",
     },
@@ -216,8 +206,7 @@ export class ProfileService {
       desc: ``,
       livedemo: "",
       githurl: "https://github.com/Shree-git/social-media-app",
-      blogLink:
-        "",
+      blogLink: "",
       imgUrl: "assets/images/sm.jpeg",
       tech: "Ruby, Ruby on Rails, Express, Node",
     },
@@ -280,154 +269,160 @@ export class ProfileService {
     {
       id: "1",
       title: "LANGUAGES",
-      skills: [{
-        name: "PYTHON",
-        progress: "85%",
-      },
-      {
-        name: "JAVA",
-        progress: "80%",
-      },
-      {
-        name: "C#",
-        progress: "80%",
-      },
-      {
-        name: "Javascript",
-        progress: "85%",
-      },
-      {
-        name: "Ruby",
-        progress: "80%",
-      },
-      {
-        name: "C++",
-        progress: "65%",
-      },
-      {
-        name: "Go",
-        progress: "60%",
-      },
-      {
-        name: "C",
-        progress: "65%",
-      }]
+      skills: [
+        {
+          name: "PYTHON",
+          progress: "85%",
+        },
+        {
+          name: "JAVA",
+          progress: "80%",
+        },
+        {
+          name: "C#",
+          progress: "80%",
+        },
+        {
+          name: "Javascript",
+          progress: "85%",
+        },
+        {
+          name: "Ruby",
+          progress: "80%",
+        },
+        {
+          name: "C++",
+          progress: "65%",
+        },
+        {
+          name: "Go",
+          progress: "60%",
+        },
+        {
+          name: "C",
+          progress: "65%",
+        },
+      ],
     },
     {
       id: "2",
       title: "AI",
-      skills: [{
-        name: "Deep Learning",
-        progress: "80%",
-      },
-      {
-        name: "Expert Systems",
-        progress: "70%",
-      },
-      {
-        name: "Computer Vision",
-        progress: "65%",
-      },
-      {
-        name: "Genetic Algorithms",
-        progress: "75%",
-      },
-      {
-        name: "Neural Networks",
-        progress: "80%",
-      },
-      {
-        name: "Fuzzy Logic",
-        progress: "80%",
-      },
-      ]
+      skills: [
+        {
+          name: "Deep Learning",
+          progress: "80%",
+        },
+        {
+          name: "Expert Systems",
+          progress: "70%",
+        },
+        {
+          name: "Computer Vision",
+          progress: "65%",
+        },
+        {
+          name: "Genetic Algorithms",
+          progress: "75%",
+        },
+        {
+          name: "Neural Networks",
+          progress: "80%",
+        },
+        {
+          name: "Fuzzy Logic",
+          progress: "80%",
+        },
+      ],
     },
     {
       id: "3",
       title: "WEB DEV",
-      skills: [{
-        name: "Angular",
-        progress: "90%",
-      },
-      {
-        name: "React",
-        progress: "75%",
-      },
-      {
-        name: "HTML",
-        progress: "90%",
-      },
-      {
-        name: "CSS",
-        progress: "85%",
-      },
-      {
-        name: "Ruby on Rails",
-        progress: "75%",
-      },
-      {
-        name: "PHP",
-        progress: "60%",
-      },
-      {
-        name: "Django",
-        progress: "55%",
-      },
-      {
-        name: "Vue",
-        progress: "45%",
-      },
-      {
-        name: "UI/UX DESIGN",
-        progress: "75%",
-      },
-      ]
+      skills: [
+        {
+          name: "Angular",
+          progress: "90%",
+        },
+        {
+          name: "React",
+          progress: "75%",
+        },
+        {
+          name: "HTML",
+          progress: "90%",
+        },
+        {
+          name: "CSS",
+          progress: "85%",
+        },
+        {
+          name: "Ruby on Rails",
+          progress: "75%",
+        },
+        {
+          name: "PHP",
+          progress: "60%",
+        },
+        {
+          name: "Django",
+          progress: "55%",
+        },
+        {
+          name: "Vue",
+          progress: "45%",
+        },
+        {
+          name: "UI/UX DESIGN",
+          progress: "75%",
+        },
+      ],
     },
     {
       id: "4",
       title: "DATABASES",
-      skills: [{
-        name: "MYSQL",
-        progress: "80%",
-      },
-      {
-        name: "POSTGRESQL",
-        progress: "80%",
-      },
-      {
-        name: "MONGODB",
-        progress: "60%",
-      },
-      {
-        name: "FIREBASE",
-        progress: "80%",
-      },
-      {
-        name: "AWS",
-        progress: "50%",
-      },
-      {
-        name: "NEO4J",
-        progress: "45%",
-      },
-      ]
+      skills: [
+        {
+          name: "MYSQL",
+          progress: "80%",
+        },
+        {
+          name: "POSTGRESQL",
+          progress: "80%",
+        },
+        {
+          name: "MONGODB",
+          progress: "60%",
+        },
+        {
+          name: "FIREBASE",
+          progress: "80%",
+        },
+        {
+          name: "AWS",
+          progress: "50%",
+        },
+        {
+          name: "NEO4J",
+          progress: "45%",
+        },
+      ],
     },
     {
       id: "5",
       title: "GAME DEV",
-      skills: [{
-        name: "UNITY ENGINE",
-        progress: "90%",
-      },
-      {
-        name: "UNREAL ENGINE",
-        progress: "50%",
-      },
-      {
-        name: "GODOT",
-        progress: "50%",
-      },
-      ]
+      skills: [
+        {
+          name: "UNITY ENGINE",
+          progress: "90%",
+        },
+        {
+          name: "UNREAL ENGINE",
+          progress: "50%",
+        },
+        {
+          name: "GODOT",
+          progress: "50%",
+        },
+      ],
     },
     {
       id: "6",
@@ -465,7 +460,7 @@ export class ProfileService {
           name: "QUANTUM COMPUTING",
           progress: "60%",
         },
-      ]
+      ],
     },
   ];
 
@@ -600,38 +595,88 @@ Completed my Secondary school with 84%.`,
   honorsData: any = [
     {
       id: 5,
-      name: 'Outstanding Leadership and Service Award',
-      date: '2022',
+      name: "Outstanding Leadership and Service Award",
+      date: "2022",
     },
     {
       id: 6,
-      name: 'Outstanding International Undergraduate Student',
-      date: '2022',
+      name: "Outstanding International Undergraduate Student",
+      date: "2022",
     },
     {
       id: 7,
-      name: 'Outstanding Student Service Award',
-      date: '2022',
+      name: "Outstanding Student Service Award",
+      date: "2022",
     },
     {
       id: 1,
-      name: 'Kermit H. Carlson Memorial Award',
-      date: '2021',
+      name: "Kermit H. Carlson Memorial Award",
+      date: "2021",
     },
     {
       id: 2,
-      name: 'Dr. Hugh McGuigan Award',
-      date: '2021',
+      name: "Dr. Hugh McGuigan Award",
+      date: "2021",
     },
     {
       id: 3,
-      name: 'Valparaiso University Presidential Scholarship',
-      date: '2019 - Present',
+      name: "Valparaiso University Presidential Scholarship",
+      date: "2019 - Present",
     },
     {
       id: 4,
-      name: 'Dean’s List',
-      date: '2019, 2020, 2021',
+      name: "Dean’s List",
+      date: "2019, 2020, 2021",
+    },
+  ];
+
+  coursesData: any = [
+    {
+      id: 1,
+      grade: "A-",
+      name: "Software Design and Development",
+      data: [],
+    },
+    {
+      id: 2,
+      grade: "A-",
+      name: "Data Structures and Algorithms",
+      data: [],
+    },
+    {
+      id: 3,
+      name: "Partial Differential Equations",
+      grade: "A",
+      data: [
+        {
+          id: 1,
+          name: "The Schrödinger Equation",
+          url: "https://drive.google.com/file/d/1ZrdFOc5CmiMmX4X2n1bXZcgQ3QSqH1Zq/view?usp=sharing"
+
+        }
+      ],
+    },
+    {
+      id: 4,
+      name: "Business Law",
+      grade: "A",
+      data: [
+        {
+          id: 1,
+          name: "Amazon Presentation",
+          url: "https://drive.google.com/file/d/1TBb1Alg8NpNvghgHYOJLqhqS73FsHO_a/view?usp=sharing"
+        },
+        {
+          id: 2,
+          name: "State of Indiana vs Curtis Jones (Courtroom Observation)",
+          url: "https://drive.google.com/file/d/1nIoofgWx80VbCOQV9lkJQOdvOhJlLdjo/view?usp=sharing"
+        },
+        {
+          id: 3,
+          name: "On the Basis of Sex (Movie Observation)",
+          url: "https://docs.google.com/document/d/1G73mWaw_043GipeU6cE3Ufn6tJcXr-7w/edit?usp=sharing&ouid=109136771117630400974&rtpof=true&sd=true"
+        }
+      ],
     },
   ];
   // contactus(data: any): Observable<any> {
@@ -657,11 +702,15 @@ Completed my Secondary school with 84%.`,
     return this.exprienceData;
   }
 
-  leadershipExp(): Observable<any>{
+  leadershipExp(): Observable<any> {
     return this.leadershipData;
   }
 
-  getHonors(): Observable<any>{
+  getHonors(): Observable<any> {
     return this.honorsData;
+  }
+
+  getCourses(): Observable<any> {
+    return this.coursesData;
   }
 }

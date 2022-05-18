@@ -19,13 +19,16 @@ import { LeadershipComponent } from './leadership/leadership.component';
 import { HonorsComponent } from './honors/honors.component';
 import { RouterModule } from '@angular/router';
 import { CoursesComponent } from './courses/courses.component';
+import {MatExpansionModule} from '@angular/material/expansion';
+
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     NgxPaginationModule,
-    RouterModule
+    RouterModule,
+    MatExpansionModule
   ],
   declarations: [
     ProfileComponent,
