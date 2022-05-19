@@ -8,8 +8,9 @@ import { environment } from "../../environments/environment";
 })
 export class PersonalProfileService {
   booksURL: string = "https://docs.google.com/spreadsheets/d/e/2PACX-1vRnwP2WXiiwh1tDImkXMhAgzmYpN39kLKazGUooH6fORPZS4FZKdjvPbKl80tLFP5M6GiDKBEelCrf9/pub?output=csv"
+  allBooksURL: string = "https://docs.google.com/spreadsheets/d/e/2PACX-1vQTIm4JI7sH8zyFeHjkcNl_YSEIerSc3_bDxWFt1mBhGxg_oCUje_Ir_yoREDI84gB1Wssll8kItGBB/pub?gid=1875019853&single=true&output=csv"
   moviesURL: string = "https://docs.google.com/spreadsheets/d/e/2PACX-1vRqPtigQmAstMkqZBV7L6HwXoSqZxleKEVvklRqpF9LvKPoe4I7EZiafrBimX11-241VUsYYQFJP3a-/pub?output=csv"
-
+  allMoviesURL: string = "https://docs.google.com/spreadsheets/d/e/2PACX-1vRqPtigQmAstMkqZBV7L6HwXoSqZxleKEVvklRqpF9LvKPoe4I7EZiafrBimX11-241VUsYYQFJP3a-/pub?gid=1486011120&single=true&output=csv"
   constructor(private http: HttpClient) {}
 
   getBooks(): Observable<any> {
@@ -19,9 +20,23 @@ export class PersonalProfileService {
     );
   }
 
+  getAllBooks(): Observable<any>{
+    return this.http.get(
+      this.allBooksURL,
+      {responseType: 'text'}
+    )
+  }
+
   getMovies(): Observable<any>{
     return this.http.get(
       this.moviesURL,
+      { responseType: 'text' }
+    )
+  }
+
+  getAllMovies(): Observable<any>{
+    return this.http.get(
+      this.allMoviesURL,
       { responseType: 'text' }
     )
   }

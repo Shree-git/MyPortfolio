@@ -14,6 +14,7 @@ import { CubingComponent } from './cubing/cubing.component';
 import { LearningComponent } from './learning/learning.component';
 import { PhotosComponent } from './photos/photos.component';
 import { RouterModule } from '@angular/router';
+import {MatExpansionModule} from '@angular/material/expansion';
 
 
 @NgModule({
@@ -21,7 +22,8 @@ import { RouterModule } from '@angular/router';
     CommonModule,
     FormsModule,
     NgxPaginationModule,
-    RouterModule
+    RouterModule,
+    MatExpansionModule
   ],
   declarations: [
     PersonalProfileComponent,

@@ -1,9 +1,15 @@
 <div class="section" id="books">
   <div class="container cc-education">
-    <div class="h4 text-center mb-4 title">Books</div>
+    <div class="h4 text-center mb-4 title">Books Read This Year</div>
+    <pagination-controls
+    *ngIf="books.length > 10"
+    id= "currentBooksPaginator"
+    (pageChange)="pageChanged($event)"
+  ></pagination-controls>
+  <h2>Total Books: {{books.length || 0}}</h2>
     <div class="colorlib-narrow-content">
       <div class="row">
-        <div class="col-md-6" *ngFor="let book of books">
+        <div class="col-md-6" *ngFor="let book of books| paginate: config">
           <div class="timeline-centered">
             <article
               
@@ -30,6 +36,41 @@
           </div>
         </div>
       </div>
+    </div>
+
+    <mat-accordion>
+      <mat-expansion-panel class="bg-secondary">
+        <mat-expansion-panel-header class="text-white">
+          <mat-panel-title class="font-weight-bold"
+          style="font-size: 22px">
+        All Books Read</mat-panel-title>
+        <div style="margin-right: 15px;">Total Books: {{allBooks.length || 0}}</div>
+        </mat-expansion-panel-header>
+        <pagination-controls
+        id="allBooksPaginator"
+    (pageChange)="pageChangedAllBooks($event)"
+  ></pagination-controls>
+        <ul>
+          <li class="d-flex justify-content-between align-items-center">
+            <div class="flex-fill font-weight-bold" style="flex-grow: 9 !important; flex-basis: 0;">Name</div>
+            <div class="flex-fill font-weight-bold" style="flex-grow: 1; flex-basis: 0; text-align: right;">Rating</div>
+            <div class="flex-fill font-weight-bold" style="flex-grow: 2; flex-basis: 0; text-align: right;">Year</div>
+          </li>
+          <li class="d-flex justify-content-between align-items-center" *ngFor="let book of allBooks| paginate: allBooksConfig">
+            <div class="flex-fill" style="flex-grow: 9 !important; flex-basis: 0;">{{book.name}}</div>
+            <div class="flex-fill" style="flex-grow: 1; flex-basis: 0; text-align: right;">{{book.rating}}</div>
+            <div class="flex-fill" style="flex-grow: 2; flex-basis: 0; text-align: right;">{{book.year}}</div>
+          </li>
+        </ul>
+      </mat-expansion-panel>
+    </mat-accordion>
+
+    <div style="margin-top: 20px">
+      <h2 class="text-center" >
+        <a href="https://www.goodreads.com/user/show/55432092-shreedhar-pandey" target="_blank"
+          >Goodreads</a
+        >
+      </h2>
     </div>
   </div>
 </div>
