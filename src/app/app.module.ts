@@ -11,32 +11,20 @@ import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
 import { PersonalProfileComponent } from "./personal-profile/personal-profile.component";
 import { AppRoutingModule } from "./app-routing.module";
 import { LocationStrategy, PathLocationStrategy } from '@angular/common';
-// const routes: Routes = [
-//   {
-//     path: "professional",
-//     component: ProfileComponent,
-//   },
-//   {
-//     path: "personal",
-//     component: PersonalProfileComponent,
-//   },
-//   { path: " ", redirectTo: "/professional", pathMatch: "full" },
-// ];
+import { SortPipe } from "./sort.pipe";
+
 
 @NgModule({
   declarations: [AppComponent],
   imports: [
     BrowserModule.withServerTransition({ appId: "serverApp" }),
     BrowserAnimationsModule,
-    // RouterModule.forRoot(routes, {
-    //   initialNavigation: "enabled",
-    // }),
     AppRoutingModule,
     ProfileModule,
     PersonalProfileModule,
     HttpClientModule
   ],
-  providers: [{ provide: LocationStrategy, useClass: PathLocationStrategy }
+  providers: [{ provide: LocationStrategy, useClass: PathLocationStrategy }, SortPipe
   ],
   bootstrap: [AppComponent],
 })

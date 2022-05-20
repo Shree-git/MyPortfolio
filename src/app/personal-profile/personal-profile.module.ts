@@ -15,6 +15,7 @@ import { LearningComponent } from './learning/learning.component';
 import { PhotosComponent } from './photos/photos.component';
 import { RouterModule } from '@angular/router';
 import {MatExpansionModule} from '@angular/material/expansion';
+import { SortPipe } from '../sort.pipe';
 
 
 @NgModule({
@@ -23,7 +24,7 @@ import {MatExpansionModule} from '@angular/material/expansion';
     FormsModule,
     NgxPaginationModule,
     RouterModule,
-    MatExpansionModule
+    MatExpansionModule,
   ],
   declarations: [
     PersonalProfileComponent,
@@ -37,7 +38,9 @@ import {MatExpansionModule} from '@angular/material/expansion';
     CubingComponent,
     LearningComponent,
     PhotosComponent,
+    SortPipe
   ],
+  providers:[SortPipe]
  
 })
 export class PersonalProfileModule { }

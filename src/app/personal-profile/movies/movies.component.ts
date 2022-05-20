@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import { SortPipe } from 'src/app/sort.pipe';
 import { PersonalProfileService } from '../personal-profile.service';
+
 
 @Component({
   selector: 'app-movies',
@@ -12,7 +14,7 @@ export class MoviesComponent implements OnInit {
    allMoviesConfig: any
    allMovies: any = [];
 
-  constructor(private personalProfileService:PersonalProfileService) { }
+  constructor(private personalProfileService:PersonalProfileService, private sortPipe: SortPipe) { }
   
     ngOnInit() {
       this.personalProfileService.getMovies().subscribe((data)=>{
@@ -43,6 +45,7 @@ export class MoviesComponent implements OnInit {
             year: el[3]
           }))
         });
+        this.allMovies = this.sortPipe.transform(this.allMovies, 'desc', 'rating');
       })
       this.config = {
         id: "paginationCurrentMovies",
