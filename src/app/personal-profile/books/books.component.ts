@@ -1,6 +1,8 @@
+import { HttpClient } from "@angular/common/http";
 import { Component, OnInit } from "@angular/core";
 import { SortPipe } from "src/app/sort.pipe";
 import { PersonalProfileService } from "../personal-profile.service";
+
 
 @Component({
   selector: "app-books",
@@ -12,8 +14,10 @@ export class BooksComponent implements OnInit {
   allBooks: any = [];
   config: any;
   allBooksConfig: any;
+  API_URL = 'http://localhost:5000';
 
-  constructor(private personalProfileService: PersonalProfileService, private sortPipe: SortPipe) {}
+  constructor(private personalProfileService: PersonalProfileService, private sortPipe: SortPipe,
+    private http: HttpClient) {}
 
   ngOnInit() {
     this.personalProfileService.getBooks().subscribe((data) => {
@@ -94,5 +98,8 @@ export class BooksComponent implements OnInit {
 
   pageChangedAllBooks(event) {
     this.allBooksConfig.currentPage = event;
+    this.http.get(`${this.API_URL}/mergesort`).subscribe(res=>{
+      console.log(res)
+    })
   }
 }

@@ -16,6 +16,7 @@ import { PhotosComponent } from './photos/photos.component';
 import { RouterModule } from '@angular/router';
 import {MatExpansionModule} from '@angular/material/expansion';
 import { SortPipe } from '../sort.pipe';
+import { HttpClientModule } from '@angular/common/http';
 
 
 @NgModule({
@@ -25,6 +26,7 @@ import { SortPipe } from '../sort.pipe';
     NgxPaginationModule,
     RouterModule,
     MatExpansionModule,
+    HttpClientModule
   ],
   declarations: [
     PersonalProfileComponent,

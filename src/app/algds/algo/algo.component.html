@@ -1,0 +1,51 @@
+<div class="section" id="algo">
+  <div class="container cc-education">
+    <div class="h4 text-center mb-4 title">Algorithms</div>
+    <div class="h5">Sorting</div>
+    <div class="h6">Merge Sort</div>
+    <div>
+      <button class="mergeBtn" (click)="mergeSort()">Try It</button>
+
+      <input type="text" placeholder="5,3,4,2,1" [(ngModel)]="inputArr" />
+
+      Sorted Arr: [{{ sortedArr }}] Elapsed Time: {{ elapsedTime }}
+    </div>
+    <div>It is a divide and conquer algorithm.</div>
+
+    <pre class="line-numbers" style="background-color: black; color: white; border-radius: 10px;">
+      <code class="language-python">
+        def merge_sort(arr):
+          if len(arr)>1:
+              m = len(arr)//2
+              L = arr[:m]
+              R = arr[m:]
+      
+              merge_sort(L)
+              merge_sort(R)
+      
+              i=j=k=0
+              while i < len(L) and j < len(R):
+                  if L[i] < R[j]:
+                      arr[k] = L[i]
+                      i+=1
+                  else:
+                      arr[k]=R[j]
+                      j+=1
+                  k+=1
+              while i < len(L):
+                  arr[k]=L[i]
+                  i+=1
+                  k+=1
+              while j < len(R):
+                  arr[k]=R[j]
+                  j+=1
+                  k+=1 
+      </code>
+   </pre>
+
+    <!-- <div class="h6">Number of Islands</div>
+    <div>
+        
+    </div> -->
+  </div>
+</div>

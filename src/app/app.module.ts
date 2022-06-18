@@ -12,6 +12,7 @@ import { PersonalProfileComponent } from "./personal-profile/personal-profile.co
 import { AppRoutingModule } from "./app-routing.module";
 import { LocationStrategy, PathLocationStrategy } from '@angular/common';
 import { SortPipe } from "./sort.pipe";
+import { AlgdsModule } from "./algds/algds.module";
 
 
 @NgModule({
@@ -22,6 +23,7 @@ import { SortPipe } from "./sort.pipe";
     AppRoutingModule,
     ProfileModule,
     PersonalProfileModule,
+    AlgdsModule,
     HttpClientModule
   ],
   providers: [{ provide: LocationStrategy, useClass: PathLocationStrategy }, SortPipe
