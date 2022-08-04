@@ -11,6 +11,49 @@ export class ProfileService {
 
   constructor(private http: HttpClient) {}
 
+  // references: any = [
+  //   {
+  //     id: 1,
+  //     imageUrl: "https://marvel-b1-cdn.bc0a.com/f00000000181213/www.valpo.edu/mathematics-statistics/files/2014/08/20140402-JLH-Lara-Pudwell-002-800x800.jpg",
+  //     desc: "",
+  //     desc1: ,
+  //     name: ,
+  //     title: ,
+  //   }
+  //   {
+  //     id: 2,
+  //     imageUrl: ,
+  //     desc: ,
+  //     desc1: ,
+  //     name: ,
+  //     title: ,
+  //   }
+  //   {
+  //     id: 3,
+  //     imageUrl: ,
+  //     desc: ,
+  //     desc1: ,
+  //     name: ,
+  //     title: ,
+  //   }
+  //   {
+  //     id: 4,
+  //     imageUrl: ,
+  //     desc: ,
+  //     desc1: ,
+  //     name: ,
+  //     title: ,
+  //   }
+  //   {
+  //     id: 5,
+  //     imageUrl: ,
+  //     desc: ,
+  //     desc1: ,
+  //     name: ,
+  //     title: ,
+  //   }
+  // ]
+
   projects: any = [
     {
       id: 1,
@@ -651,9 +694,8 @@ Completed my Secondary school with 84%.`,
         {
           id: 1,
           name: "The Schrödinger Equation",
-          url: "https://drive.google.com/file/d/1ZrdFOc5CmiMmX4X2n1bXZcgQ3QSqH1Zq/view?usp=sharing"
-
-        }
+          url: "https://drive.google.com/file/d/1ZrdFOc5CmiMmX4X2n1bXZcgQ3QSqH1Zq/view?usp=sharing",
+        },
       ],
     },
     {
@@ -664,18 +706,18 @@ Completed my Secondary school with 84%.`,
         {
           id: 1,
           name: "Amazon Presentation",
-          url: "https://drive.google.com/file/d/1TBb1Alg8NpNvghgHYOJLqhqS73FsHO_a/view?usp=sharing"
+          url: "https://drive.google.com/file/d/1TBb1Alg8NpNvghgHYOJLqhqS73FsHO_a/view?usp=sharing",
         },
         {
           id: 2,
           name: "State of Indiana vs Curtis Jones (Courtroom Observation)",
-          url: "https://drive.google.com/file/d/1nIoofgWx80VbCOQV9lkJQOdvOhJlLdjo/view?usp=sharing"
+          url: "https://drive.google.com/file/d/1nIoofgWx80VbCOQV9lkJQOdvOhJlLdjo/view?usp=sharing",
         },
         {
           id: 3,
           name: "On the Basis of Sex (Movie Observation)",
-          url: "https://docs.google.com/document/d/1G73mWaw_043GipeU6cE3Ufn6tJcXr-7w/edit?usp=sharing&ouid=109136771117630400974&rtpof=true&sd=true"
-        }
+          url: "https://docs.google.com/document/d/1G73mWaw_043GipeU6cE3Ufn6tJcXr-7w/edit?usp=sharing&ouid=109136771117630400974&rtpof=true&sd=true",
+        },
       ],
     },
   ];
