@@ -1,20 +1,19 @@
-import { Component, OnInit } from '@angular/core';
-import { ProfileService } from '../profile.service';
+import { Component, OnInit } from "@angular/core";
+import { ProfileService } from "../profile.service";
 
 @Component({
-  selector: 'app-about',
-  templateUrl: './about.component.html',
-  styleUrls: ['./about.component.scss']
+  selector: "app-about",
+  templateUrl: "./about.component.html",
+  styleUrls: ["./about.component.scss"],
 })
 export class AboutComponent implements OnInit {
-about1
-about2
+  about1;
+  about2;
 
-constructor(private profileService:ProfileService) { }
+  constructor(private profileService: ProfileService) {}
 
   ngOnInit() {
-    this.about1 =  this.profileService.about
-    this.about2 =  this.profileService.about2
+    this.profileService.getAbout().subscribe((res) => (this.about1 = res));
+    this.profileService.getAbout2().subscribe((res) => (this.about2 = res));
   }
-
 }

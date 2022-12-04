@@ -1,18 +1,16 @@
-import { Component, OnInit } from '@angular/core';
-import { ProfileService } from '../profile.service';
+import { Component, OnInit } from "@angular/core";
+import { ProfileService } from "../profile.service";
 
 @Component({
-  selector: 'app-intro',
-  templateUrl: './intro.component.html',
-  styleUrls: ['./intro.component.scss']
+  selector: "app-intro",
+  templateUrl: "./intro.component.html",
+  styleUrls: ["./intro.component.scss"],
 })
 export class IntroComponent implements OnInit {
-  cvUrl
-  constructor(private profileService:ProfileService) { }
+  cvUrl;
+  constructor(private profileService: ProfileService) {}
 
   ngOnInit() {
-    
-    this.cvUrl =  this.profileService.resumeurl
+    this.profileService.getResume().subscribe((res) => (this.cvUrl = res));
   }
-
 }

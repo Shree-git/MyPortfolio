@@ -1,19 +1,17 @@
-import { Component, OnInit } from '@angular/core';
-import { ProfileService } from '../profile.service';
+import { Component, OnInit } from "@angular/core";
+import { ProfileService } from "../profile.service";
 
 @Component({
-  selector: 'app-honors',
-  templateUrl: './honors.component.html',
-  styleUrls: ['./honors.component.scss']
+  selector: "app-honors",
+  templateUrl: "./honors.component.html",
+  styleUrls: ["./honors.component.scss"],
 })
 export class HonorsComponent implements OnInit {
-
   honorsData;
 
-  constructor(private profileService: ProfileService) { }
+  constructor(private profileService: ProfileService) {}
 
   ngOnInit(): void {
-    this.honorsData = this.profileService.getHonors();
+    this.profileService.getHonors().subscribe((res) => (this.honorsData = res));
   }
-
 }
