@@ -9,12 +9,11 @@ import { environment } from "../../environments/environment";
 export class ProfileService {
   dataUrl = environment.dataURL;
 
-  constructor(private http: HttpClient) {
-    // fetch("https://api.npoint.io/624d30b044f828514c02/projects/")
-    //   .then((r) => r.json())
-    //   .then((r) => (this.pro = r));
-  }
+  constructor(private http: HttpClient) {}
 
+  getBasicInfo(): Observable<any> {
+    return this.http.get(this.dataUrl + "basic-info");
+  }
   getAbout(): Observable<any> {
     return this.http.get(this.dataUrl + "about");
   }
