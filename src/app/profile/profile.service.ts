@@ -50,4 +50,8 @@ export class ProfileService {
   getCourses(): Observable<any> {
     return this.http.get(this.dataUrl + "courses");
   }
+
+  getReferences(): Observable<any> {
+    return this.http.get(this.dataUrl + "references");
+  }
 }
