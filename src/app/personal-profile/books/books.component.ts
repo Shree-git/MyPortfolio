@@ -14,7 +14,7 @@ export class BooksComponent implements OnInit {
   allBooks: any = [];
   config: any;
   allBooksConfig: any;
-  API_URL = 'http://localhost:5000';
+  API_URL = 'http://127.0.0.1:5000';
 
   constructor(private personalProfileService: PersonalProfileService, private sortPipe: SortPipe,
     private http: HttpClient) {}
