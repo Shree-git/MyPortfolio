@@ -1,0 +1,613 @@
+{
+    "projects": [
+      {
+        "id": 1,
+        "title": "Choices",
+        "subtitle": "An app to challenge addiction",
+        "desc": "A cross-platform app for iOS, Android, Desktop and Web which help patients recover from drug and alcohol addiction.",
+        "livedemo": "https://choicesnew-a0046.web.app/",
+        "githurl": "https://github.com/Shree-git/newChoices",
+        "blogLink": "",
+        "imgUrl": "assets/images/cs13.png",
+        "tech": "Ionic, Node, Angular, Firebase"
+      },
+      {
+        "id": 2,
+        "title": "COVID Hero",
+        "subtitle": "",
+        "desc": "An all-in-one app that keeps users up to date on the spread of Covid-19 while offering features like testing \n      locations, future prediction system, GPS hotzone tracker and crowd-sourced reviews for businesses on how COVID safe \n      they are",
+        "livedemo": "https://covid-detection-37cda.web.app/",
+        "githurl": "https://github.com/Shree-git/covid-detection-team08/",
+        "blogLink": "https://devpost.com/software/covid-hero-covid-detection-team-8/",
+        "imgUrl": "assets/images/ch11.png",
+        "tech": "Ionic, Node, Angular, Firebase, R, Python, Google Maps API"
+      },
+      {
+        "id": 3,
+        "title": "COMPS",
+        "subtitle": "Chat Engine",
+        "desc": "A web-chat application which makes online teaching and learning easier for students, professors, and TAs",
+        "livedemo": "https://comps-ea6c1.web.app/login-chat",
+        "githurl": "https://github.com/Shree-git/COMPS-Chat-Engine",
+        "blogLink": "",
+        "imgUrl": "assets/images/cm.png",
+        "tech": "Angular, Typescript, Node, Firebase"
+      },
+      {
+        "id": 11,
+        "title": "AI Traveling Salesman",
+        "subtitle": "",
+        "desc": "A program which uses genetic algorithm to figure out the optimal solution to the Traveling Salesman Problem.",
+        "livedemo": "",
+        "githurl": "https://github.com/Shree-git/AI-Traveling-Salesman",
+        "blogLink": "",
+        "imgUrl": "assets/images/tsp2.png",
+        "tech": "Python3, Tkinter"
+      },
+      {
+        "id": 4,
+        "title": "Paint Replica",
+        "subtitle": "",
+        "desc": "Utilized JavaFX library to develop under an aggressive schedule using UML and agile software development methods",
+        "livedemo": "",
+        "githurl": "https://github.com/Shree-git/paint",
+        "blogLink": "",
+        "imgUrl": "assets/images/paint2.png",
+        "tech": "Java, JavaFX"
+      },
+      {
+        "id": 5,
+        "title": "Chess 3D",
+        "subtitle": "Mobile Game",
+        "desc": "",
+        "livedemo": "https://drive.google.com/file/d/1ithRuxG-fqOlu2QxeOglITQnxJkOPYe_/view?usp=sharing",
+        "githurl": "https://github.com/Shree-git/Chess-3D/",
+        "blogLink": "",
+        "imgUrl": "assets/images/chess.jpeg",
+        "tech": "C#, Unity Game Engine, Blender"
+      },
+      {
+        "id": 6,
+        "title": "Match 3",
+        "subtitle": "Game",
+        "desc": "",
+        "livedemo": "https://shree56.itch.io/match-3",
+        "githurl": "https://github.com/Shree-git/Match-3-Game",
+        "blogLink": "",
+        "imgUrl": "assets/images/match2.png",
+        "tech": "C#, Unity Game Engine, Adobe Photoshop, Adobe Illustrator"
+      },
+      {
+        "id": 13,
+        "title": "Automatic Number Plate Recognition",
+        "subtitle": "Image Processing AI",
+        "desc": "A Matlab program which detects the number plate of UK vehicles and extracts it",
+        "livedemo": "",
+        "githurl": "https://github.com/Shree-git/Automatic-Number-Plate-Recognition",
+        "blogLink": "",
+        "imgUrl": "assets/images/q6.png",
+        "tech": "Matlab"
+      },
+      {
+        "id": 7,
+        "title": "Tic-Tac-Toe",
+        "subtitle": "Mobile Game",
+        "desc": "",
+        "livedemo": "https://drive.google.com/file/d/11FndRv0QpWqHB0qlA8GTvxiC4I9Yi1Tt/view?usp=sharing",
+        "githurl": "https://github.com/Shree-git/tic-tac-toe",
+        "blogLink": "https://shree56.itch.io/shrees-tic-tac-toe",
+        "imgUrl": "assets/images/ttt2.jpeg",
+        "tech": "C#, Unity Game Engine"
+      },
+      {
+        "id": 8,
+        "title": "Time Jump",
+        "subtitle": "Game",
+        "desc": "",
+        "livedemo": "https://shree56.itch.io/time-jump",
+        "githurl": "https://github.com/Shree-git/GamesPlusJam",
+        "blogLink": "",
+        "imgUrl": "assets/images/tj.png",
+        "tech": "C#, Unity Game Engine, Adobe Photoshop, FL Studio"
+      },
+      {
+        "id": 9,
+        "title": "Spooky Torch",
+        "subtitle": "Game",
+        "desc": "",
+        "livedemo": "https://shree56.itch.io/spooky-torch",
+        "githurl": "",
+        "blogLink": "",
+        "imgUrl": "assets/images/spt3.png",
+        "tech": "C#, Unity Game Engine, Adobe Photoshop, FL Studio"
+      },
+      {
+        "id": 10,
+        "title": "Love or Math",
+        "subtitle": "Game",
+        "desc": "",
+        "livedemo": "https://shree56.itch.io/love-or-math",
+        "githurl": "",
+        "blogLink": "",
+        "imgUrl": "assets/images/lom1.png",
+        "tech": "C#, Unity Game Engine, Adobe Photoshop, FL Studio"
+      },
+      {
+        "id": 12,
+        "title": "AI Konane",
+        "subtitle": "Game",
+        "desc": "A two-player strategy board game integrated with AI built with minimax with alpha-beta cutoffs and \n      a scoring function.",
+        "livedemo": "",
+        "githurl": "https://github.com/Shree-git/AI-Konane-Game",
+        "blogLink": "",
+        "imgUrl": "assets/images/konane.png",
+        "tech": "Python3"
+      },
+      {
+        "id": 14,
+        "title": "Space Shooter",
+        "subtitle": "Multiplayer Game",
+        "desc": "",
+        "livedemo": "",
+        "githurl": "https://github.com/Shree-git/Space-Shooter-Multiplayer",
+        "blogLink": "",
+        "imgUrl": "assets/images/space.png",
+        "tech": "C#, Unity Game Engine"
+      },
+      {
+        "id": 15,
+        "title": "Audio Player",
+        "subtitle": "",
+        "desc": "",
+        "livedemo": "",
+        "githurl": "https://github.com/Shree-git/Audio-Player",
+        "blogLink": "",
+        "imgUrl": "assets/images/ap.png",
+        "tech": "Angular, Auth0"
+      },
+      {
+        "id": 16,
+        "title": "Social Media App",
+        "subtitle": "",
+        "desc": "",
+        "livedemo": "",
+        "githurl": "https://github.com/Shree-git/social-media-app",
+        "blogLink": "",
+        "imgUrl": "assets/images/sm.jpeg",
+        "tech": "Ruby, Ruby on Rails, Express, Node"
+      }
+    ],
+    "skills": [
+      {
+        "id": "1",
+        "title": "LANGUAGES",
+        "skills": [
+          {
+            "name": "PYTHON",
+            "progress": "85%"
+          },
+          {
+            "name": "JAVA",
+            "progress": "80%"
+          },
+          {
+            "name": "C#",
+            "progress": "80%"
+          },
+          {
+            "name": "Javascript",
+            "progress": "85%"
+          },
+          {
+            "name": "Ruby",
+            "progress": "80%"
+          },
+          {
+            "name": "C++",
+            "progress": "65%"
+          },
+          {
+            "name": "Go",
+            "progress": "60%"
+          },
+          {
+            "name": "C",
+            "progress": "65%"
+          }
+        ]
+      },
+      {
+        "id": "2",
+        "title": "AI",
+        "skills": [
+          {
+            "name": "Deep Learning",
+            "progress": "80%"
+          },
+          {
+            "name": "Expert Systems",
+            "progress": "70%"
+          },
+          {
+            "name": "Computer Vision",
+            "progress": "65%"
+          },
+          {
+            "name": "Genetic Algorithms",
+            "progress": "75%"
+          },
+          {
+            "name": "Neural Networks",
+            "progress": "80%"
+          },
+          {
+            "name": "Fuzzy Logic",
+            "progress": "80%"
+          }
+        ]
+      },
+      {
+        "id": "3",
+        "title": "WEB DEV",
+        "skills": [
+          {
+            "name": "Angular",
+            "progress": "90%"
+          },
+          {
+            "name": "React",
+            "progress": "75%"
+          },
+          {
+            "name": "HTML",
+            "progress": "90%"
+          },
+          {
+            "name": "CSS",
+            "progress": "85%"
+          },
+          {
+            "name": "Ruby on Rails",
+            "progress": "75%"
+          },
+          {
+            "name": "PHP",
+            "progress": "60%"
+          },
+          {
+            "name": "Django",
+            "progress": "55%"
+          },
+          {
+            "name": "Vue",
+            "progress": "45%"
+          },
+          {
+            "name": "UI/UX DESIGN",
+            "progress": "75%"
+          }
+        ]
+      },
+      {
+        "id": "4",
+        "title": "DATABASES",
+        "skills": [
+          {
+            "name": "MYSQL",
+            "progress": "80%"
+          },
+          {
+            "name": "POSTGRESQL",
+            "progress": "80%"
+          },
+          {
+            "name": "MONGODB",
+            "progress": "60%"
+          },
+          {
+            "name": "FIREBASE",
+            "progress": "80%"
+          },
+          {
+            "name": "AWS",
+            "progress": "50%"
+          },
+          {
+            "name": "NEO4J",
+            "progress": "45%"
+          }
+        ]
+      },
+      {
+        "id": "5",
+        "title": "GAME DEV",
+        "skills": [
+          {
+            "name": "UNITY ENGINE",
+            "progress": "90%"
+          },
+          {
+            "name": "UNREAL ENGINE",
+            "progress": "50%"
+          },
+          {
+            "name": "GODOT",
+            "progress": "50%"
+          }
+        ]
+      },
+      {
+        "id": "6",
+        "title": "MISC",
+        "skills": [
+          {
+            "name": "LEADERSHIP",
+            "progress": "85%"
+          },
+          {
+            "name": "COLLABORATION",
+            "progress": "80%"
+          },
+          {
+            "name": "COMMUNICATION",
+            "progress": "85%"
+          },
+          {
+            "name": "ADOBE PHOTOSHOP",
+            "progress": "80%"
+          },
+          {
+            "name": "ADOBE ILLUSTRATOR",
+            "progress": "60%"
+          },
+          {
+            "name": "ANDROID STUDIO",
+            "progress": "60%"
+          },
+          {
+            "name": "PROJECT MANAGEMENT",
+            "progress": "70%"
+          },
+          {
+            "name": "QUANTUM COMPUTING",
+            "progress": "60%"
+          }
+        ]
+      }
+    ],
+    "experiences": [
+      {
+        "id": 7,
+        "company": "Bytedance/TikTok",
+        "location": "Mountain View, CA",
+        "timeline": "Nov 2022 - Present",
+        "role": "Fullstack Software Engineer",
+        "work": "Work on Global Payments Web and Client system to serve merchants in the US\n    Communicate with teams worldwide for knowledge and technology transfer to ultimately make the payment system run independently and locally"
+      },
+      {
+        "id": 6,
+        "company": "Flatiron School",
+        "location": "New York City, NY (Remote)",
+        "timeline": "July 2022 - Nov 2022",
+        "role": "Software Engineering Instructor",
+        "work": "Responsible for the progress of students throughout the Software Engineering bootcamp\n     Monitor individual progress, design, and implement interventions to ensure student success"
+      },
+      {
+        "id": 5,
+        "company": "Woven",
+        "location": "Indianapolis, IN (Remote)",
+        "timeline": "June 2021 - Aug 2021",
+        "role": "Software Engineering Intern",
+        "work": "Used React and Ruby on Rails to maintain a full-stack application which helped over 30 customers make their hiring process efficient and find hidden gems within a pool of applicants.\n      Assisted in the process of increasing the company’s annual ARR by 116% and 3x its revenue."
+      },
+      {
+        "id": 4,
+        "company": "Techpoint",
+        "location": "Indianapolis, IN (Remote)",
+        "timeline": "June 2020 - July 2020",
+        "role": "Software Engineering S.O.S. Challenge Intern",
+        "work": "Worked as a project manager and software developer on a multi-disciplinary team to create a solution for the challenges faced during COVID-19 pandemic. Won the ‘Fan Favorite’ award.\n      Built features like self-assessment test, testing locations, daily COVID updates, prediction system, GPS hotzone tracker and crowd-sourced reviews for businesses on how COVID safe they are."
+      },
+      {
+        "id": 3,
+        "company": "Valparaiso University",
+        "location": "Valparaiso, IN",
+        "timeline": "Aug 2019 - Mar 2022",
+        "role": "Ambassador in Admissions",
+        "work": "Gave a tour of the University to prospective students and families.\n      Phoned prospective students and guided them through their college search process."
+      },
+      {
+        "id": 2,
+        "company": "Valparaiso University",
+        "location": "Valparaiso, IN",
+        "timeline": "Aug 2020 - May 2022",
+        "role": "Teaching Assistant (TA)",
+        "work": "Assisted the professor with the course and held office hours to work one-on-one with students."
+      },
+      {
+        "id": 1,
+        "company": "Duesenberg Welcome Center",
+        "location": "Valparaiso, IN",
+        "timeline": "Aug 2019 - Mar 2022",
+        "role": "Front Desk Attendant",
+        "work": "Coordinated tour guides and the prospective families for the campus tour and provided customer support."
+      }
+    ],
+    "leaderships": [
+      {
+        "id": 1,
+        "organization": "Valparaiso International Students Association",
+        "location": "Valparaiso, IN",
+        "timeline": "July 2020 - May 2021",
+        "role": "President",
+        "work": "Oversaw all executive members and organized events such as World Banquet and Cultural Nights among others.\n      Represented international students and promoted diversity/inclusion in the university."
+      },
+      {
+        "id": 2,
+        "organization": "Association of Computing Machinery (ACM)",
+        "location": "Valparaiso, IN",
+        "timeline": "Aug 2020 - Dec 2021",
+        "role": "Vice President",
+        "work": "Coordinated events such as Hackathons, coding interview preps, among others.\n      Brought in speakers to talk about Computer Science and its applications in the world."
+      },
+      {
+        "id": 3,
+        "organization": "TEDx",
+        "location": "Valparaiso, IN",
+        "timeline": "Jan 2020",
+        "role": "Speaker",
+        "work": "Gave a TEDx talk titled: Ten Days of Finding Myself.\n      Link: shorturl.at/nxzLW"
+      },
+      {
+        "id": 4,
+        "organization": "Valparaiso University",
+        "location": "Valparaiso, IN",
+        "timeline": "Aug 2020 - May 2021",
+        "role": "At-Large Senator",
+        "work": "Advocated for the students and wrote legislations to help the whole at-large student body on campus.\n      Served in the Administration Committee overseeing the approval of new student organizations."
+      },
+      {
+        "id": 5,
+        "organization": "Nepal Cube Association",
+        "location": "Kathmandu, Nepal",
+        "timeline": "Jan 2016 - July 2018",
+        "role": "Co-Founder",
+        "work": "Co-started the Nepal Cube Association with 5 people and established cubing as a sport in Nepal."
+      }
+    ],
+    "honors": [
+      {
+        "id": 5,
+        "name": "Outstanding Leadership and Service Award",
+        "date": "2022"
+      },
+      {
+        "id": 6,
+        "name": "Outstanding International Undergraduate Student",
+        "date": "2022"
+      },
+      {
+        "id": 7,
+        "name": "Outstanding Student Service Award",
+        "date": "2022"
+      },
+      {
+        "id": 1,
+        "name": "Kermit H. Carlson Memorial Award",
+        "date": "2021"
+      },
+      {
+        "id": 2,
+        "name": "Dr. Hugh McGuigan Award",
+        "date": "2021"
+      },
+      {
+        "id": 3,
+        "name": "Valparaiso University Presidential Scholarship",
+        "date": "2019 - Present"
+      },
+      {
+        "id": 4,
+        "name": "Dean’s List",
+        "date": "2019, 2020, 2021"
+      }
+    ],
+    "courses": [
+      {
+        "id": 1,
+        "grade": "A-",
+        "name": "Software Design and Development",
+        "data": []
+      },
+      {
+        "id": 2,
+        "grade": "A-",
+        "name": "Data Structures and Algorithms",
+        "data": []
+      },
+      {
+        "id": 3,
+        "name": "Partial Differential Equations",
+        "grade": "A",
+        "data": [
+          {
+            "id": 1,
+            "name": "The Schrödinger Equation",
+            "url": "https://drive.google.com/file/d/1ZrdFOc5CmiMmX4X2n1bXZcgQ3QSqH1Zq/view?usp=sharing"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Business Law",
+        "grade": "A",
+        "data": [
+          {
+            "id": 1,
+            "name": "Amazon Presentation",
+            "url": "https://drive.google.com/file/d/1TBb1Alg8NpNvghgHYOJLqhqS73FsHO_a/view?usp=sharing"
+          },
+          {
+            "id": 2,
+            "name": "State of Indiana vs Curtis Jones (Courtroom Observation)",
+            "url": "https://drive.google.com/file/d/1nIoofgWx80VbCOQV9lkJQOdvOhJlLdjo/view?usp=sharing"
+          },
+          {
+            "id": 3,
+            "name": "On the Basis of Sex (Movie Observation)",
+            "url": "https://docs.google.com/document/d/1G73mWaw_043GipeU6cE3Ufn6tJcXr-7w/edit?usp=sharing&ouid=109136771117630400974&rtpof=true&sd=true"
+          }
+        ]
+      }
+    ],
+    "references": [
+      {
+        "id": 1,
+        "name": "Dr. Lara Pudwell",
+        "title": "PROFESSOR OF MATHEMATICS AND STATISTICS, AT VALPARAISO UNIVERSITY",
+        "photoUrl": "../../../assets/images/prof. pudwell.webp",
+        "desc": ["During the 2020-2021 academic year, Shree also took two 400-level courses in Combinatorics with me. In both courses Shree earned a final grade of 95% (class averages of 87% and 82%). Shree’s performance is especially impressive considering that he took the prerequisite course for Combinatorics 1 simultaneously, rather than before the course. Still, he demonstrated persistence, attention to detail, and proficiency with concepts throughout the course, outperforming many students who had taken the prerequisite course in a previous semester. In addition to his excellence in academics, Shree is highly engaged with extracurricular work. He has served as president of the Valparaiso International Students Association, vice president of the Association for Computing Machinery, worked in the university admissions office, and served in Student Senate. His resume tells an even deeper story of both on and off-campus experience. He approaches each of these activities with thoughtfulness for how he can contribute as a leader in ways that benefit others.", "In summary, I have no doubt that you will enjoy working with Shree as much as I have. He is detail- oriented, persistent, hard-working, analytical, and mature. His intuition and curiosity are strong. I recommend him to you highly and without reservation."]
+      },
+      {
+        "id": 2,
+        "name": "Marci Fradkin",
+        "title": "DIRECTOR OF GLOBAL PARTNERSHIPS, AT VIRGINIA COMMONWEALTH UNIVERSITY",
+        "photoUrl": "../../../assets/images/marci.jpeg",
+        "desc": ["I have known Shreedhar since he was an applicant to Valparaiso University. When he was the President of the International Student Club, I was an advisor and worked with him in admission. I have always been impressed by how he is so strong at building relationships with outside organizations, faculty, and students worldwide. He is also very well-spoken and has even been featured in videos and participated in a Ted talk.", "He is very hardworking and takes advantage of every opportunity presented to him and develops. Anyone would be lucky to hire this innovative thinker and someone who works as hard as Shreedhar."]
+      },
+      {
+        "id": 3,
+        "name": "Skylar Werneth",
+        "title": "SALES DEVELOPMENT REPRESENTATIVE, AT STYLO",
+        "photoUrl": "../../../assets/images/skylar.jpeg",
+        "desc": ["Shree did some awesome work on the Software End of things at Woven. It was a joy seeing him provide updates and feedback on the tech side to the rest of the company in a way we could all understand it regardless of our software background.", "Shree brought amazing energy to all of our meetings and he was a pleasure to work with."]
+      },
+      {
+        "id": 4,
+        "name": "Dr. Ken Luther",
+        "title": "PROFESSOR OF MATHEMATICS, AT VALPARAISO UNIVERSITY",
+        "photoUrl": "../../../assets/images/prof. luther.jpeg",
+        "desc": ["Let’s start with the basics – in the classroom, Shree was one of the top academic performers of his class, both in my own class and in others. He received a major in both computer science and mathematics. In my class (PDEs), his work was always neat, meticulous, and correct. Each professor learns which students in a class produce work which can be a pseudo-solution-key … that is, work in which, if there’s a discrepancy between your own solutions and his, you’d better double check to be sure your own is correct. Shree was one such student. But lots of people do very well in classes, so what else is there? I also got to watch Shree struggle, and ultimately succeed, with handling a very difficult situation in trying to arrange a semester abroad for study at Cambridge. He had to learn way more than any undergraduate should ever need to about bureaucracy, and how to fight his way through it. Because of his visa status, he had to juggle (sometimes contradictory) information from the US government visa offices and our own Department of International Programs to ultimately secure a visa which would allow him to change locations from the US to Great Britain for a semester of study, all while the clock was ticking on the start date for the semester in Cambridge, and while the semester at Valpo had already started – meaning, if his plans to attend Cambdige fell through, he would be behind at VU. It was an extremely frustrating and uncertain experience for him, but he stuck with it and got it all done just in time. I’m sure he will have some stories to tell about this experience.", "Overall, I have every confidence Shree has developed into a young professional with significant potential to succeed in technical and computer related work. He will make an excellent addition to your teams, and I imagine he will perform above expectations. I heartily recommend Shree Pandey for any position he is eligible for."]
+      },
+      {
+        "id": 5,
+        "name": "Mike Targonski",
+        "title": "DIRECTOR OF ADMISSION VISITS AND EVENTS, AT VALPARAISO UNIVERSITY",
+        "photoUrl": "../../../assets/images/mike.jpeg",
+        "desc": ["One thing that has always stuck out to me about Shree is his ability to make himself become, and then stay, comfortable in any situation or environment. When he was having difficulty finding his way, he was not afraid to make me aware and share his concerns. Shree stepped out of his comfort zone coming to the United States for college alone. In our office, Shree was expected to communicate and find commonalities with, almost exclusively, high school students from the U.S. who had totally different experiences than him. Shree came to me one time to discuss struggles while making phone calls to students. He took kindly to advice and encouragement, found a way to be effective in his work while still meeting expectations, and succeeded in his role. Shree’s work ethic is one of his best qualities.", "Shree always represented Valparaiso University positively, and was looked up to by his teammates, because of his calm demeanor, his ability to adapt to each and every family, and his wide range of experience as a student and in our office. I believe Shree’s experience in our office has prepared him well to be successful in any team environment."]
+      }
+    ],
+    "about2": "Languages: Python, Java, C, C++ C#, Javascript, Ruby, Golang/Go\n  Artificial Intelligence: Machine Learning, Deep Learning, Fuzzy Logic, Genetic Algorithms, Computer Vision, Quantum Computing, High-Performance Computing\n  Game Development: Unity Game Engine, 2D and 3D games, Unreal Engine\n  Full Stack Development: Angular, Ionic/Angular, React, React Native, Vue, Ruby on Rails, Django, Flask, HTML, CSS, PHP, jQuery, Bootstrap\n  Databases: MySQL, MongoDB, Neo4j, Oracle PL/SQL, Google Cloud Platform/Firebase, AWS\n  Networking: MPLS, BGP, TCP/IP\n  Mobile Apps: Android Studio, XCode\n  Graphic Design: Adobe Photoshop, Adobe Illustrator, UI/UX\n  Music Production: FL Studio, Ableton Live",
+    "about": "I am currently working at Bytedance/TikTok in Bay Area, CA. My skillsets are listed below:",
+    "resume-url": "https://drive.google.com/file/d/1h2WcqicqCEQcu2ZtG8HRQtimjRLcU0N_/view?usp=sharing",
+    "basic-info": {
+      "legalName": "Shreedhar Pandey",
+      "preferredName": "Shree Pandey",
+      "dob": "Jan 19, 1999",
+      "email": "sridhar.pandey1@gmail.com",
+      "workEmail": "shree.pandey@bytedance.com",
+      "phone": "+1 505-507-3339",
+      "languages": "English, Nepali, Hindi, Basic Spanish"
+    },
+    "title": "Software Engineer @ Bytedance/TikTok"
+  }

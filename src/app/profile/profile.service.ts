@@ -14,6 +14,9 @@ export class ProfileService {
   getBasicInfo(): Observable<any> {
     return this.http.get(this.dataUrl + "basic-info");
   }
+  getSocialInfo(): Observable<any> {
+    return this.http.get(this.dataUrl + "social-info");
+  }
   getTitle(): Observable<any> {
     return this.http.get(this.dataUrl + "title");
   }
